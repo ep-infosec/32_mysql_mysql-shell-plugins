@@ -1,0 +1,1125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion component tests Test accordion output (Snapshot) 1`] = `
+<Accordion
+  caption="SIDEBAR TITLE"
+  footer="Lorem ipsum dolor sit amen, consenter"
+  id="sidebar1"
+  sections={
+    Array [
+      Object {
+        "caption": "FIRST SECTION",
+        "content": Array [
+          <AccordionItem
+            caption="Item 1"
+            id="item1"
+          />,
+          <AccordionItem
+            caption="Item 2"
+            id="item2"
+          />,
+          <AccordionItem
+            caption="Item 3"
+            id="item3"
+          />,
+        ],
+        "expanded": false,
+        "id": "first",
+      },
+      Object {
+        "caption": "SECOND SECTION",
+        "content": Array [
+          <AccordionItem
+            caption="Item 5"
+            id="item5"
+            picture="connections.svg"
+          />,
+          <AccordionItem
+            caption="Item 6"
+            id="item6"
+            picture="connections.svg"
+          />,
+          <AccordionItem
+            caption="Item 7"
+            id="item7"
+            picture="connections.svg"
+          />,
+        ],
+        "id": "second",
+      },
+      Object {
+        "caption": "THIRD SECTION",
+        "content": Array [
+          <AccordionItem
+            caption="Item 9"
+            id="item9"
+          />,
+          <AccordionItem
+            caption="Item 10"
+            id="item10"
+          />,
+          <AccordionItem
+            caption="Item 11"
+            id="item11"
+          />,
+        ],
+        "id": "third",
+      },
+    ]
+  }
+  singleExpand={true}
+  style={
+    Object {
+      "borderStyle": "solid",
+      "borderWidth": "1px",
+    }
+  }
+>
+  <Container
+    className="msg accordion"
+    id="sidebar1"
+    mainAlignment="flex-start"
+    orientation="column"
+    style={
+      Object {
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+      }
+    }
+  >
+    <div
+      className="msg container fixedScrollbar accordion"
+      id="sidebar1"
+      style={
+        Object {
+          "alignItems": undefined,
+          "borderStyle": "solid",
+          "borderWidth": "1px",
+          "flexDirection": "column",
+          "flexWrap": undefined,
+          "justifyContent": "flex-start",
+        }
+      }
+    >
+      <Label
+        className="title"
+      >
+        <label
+          className="msg label title"
+          data-tooltip="expand"
+          style={
+            Object {
+              "textAlign": undefined,
+            }
+          }
+        >
+          SIDEBAR TITLE
+        </label>
+      </Label>
+      <SplitContainer
+        className="accordionContent"
+        onPaneResized={[Function]}
+        orientation="column"
+        panes={
+          Array [
+            Object {
+              "content": <AccordionSection
+                caption="FIRST SECTION"
+                dimmed={false}
+                expanded={false}
+                id="first"
+                onAction={[Function]}
+                onToggleExpandState={[Function]}
+              >
+                <AccordionItem
+                  caption="Item 1"
+                  id="item1"
+                />
+                <AccordionItem
+                  caption="Item 2"
+                  id="item2"
+                />
+                <AccordionItem
+                  caption="Item 3"
+                  id="item3"
+                />
+              </AccordionSection>,
+              "expanded": false,
+              "id": "first",
+              "initialSize": undefined,
+              "maxSize": 28,
+              "maxSizeBackup": undefined,
+              "minSize": 28,
+              "minSizeBackup": 28,
+              "resizable": false,
+              "resizableBackup": false,
+              "snap": true,
+              "stretch": false,
+            },
+            Object {
+              "content": <AccordionSection
+                caption="SECOND SECTION"
+                dimmed={false}
+                expanded={true}
+                id="second"
+                onAction={[Function]}
+                onToggleExpandState={[Function]}
+              >
+                <AccordionItem
+                  caption="Item 5"
+                  id="item5"
+                  picture="connections.svg"
+                />
+                <AccordionItem
+                  caption="Item 6"
+                  id="item6"
+                  picture="connections.svg"
+                />
+                <AccordionItem
+                  caption="Item 7"
+                  id="item7"
+                  picture="connections.svg"
+                />
+              </AccordionSection>,
+              "expanded": true,
+              "id": "second",
+              "initialSize": undefined,
+              "maxSize": undefined,
+              "maxSizeBackup": undefined,
+              "minSize": 28,
+              "minSizeBackup": 28,
+              "resizable": false,
+              "resizableBackup": false,
+              "snap": true,
+              "stretch": false,
+            },
+            Object {
+              "content": <AccordionSection
+                caption="THIRD SECTION"
+                dimmed={false}
+                expanded={true}
+                id="third"
+                onAction={[Function]}
+                onToggleExpandState={[Function]}
+              >
+                <AccordionItem
+                  caption="Item 9"
+                  id="item9"
+                />
+                <AccordionItem
+                  caption="Item 10"
+                  id="item10"
+                />
+                <AccordionItem
+                  caption="Item 11"
+                  id="item11"
+                />
+              </AccordionSection>,
+              "expanded": true,
+              "id": "third",
+              "initialSize": undefined,
+              "maxSize": undefined,
+              "maxSizeBackup": undefined,
+              "minSize": 28,
+              "minSizeBackup": 28,
+              "resizable": false,
+              "resizableBackup": false,
+              "snap": true,
+              "stretch": false,
+            },
+          ]
+        }
+        splitterSize={4}
+      >
+        <div
+          className="msg splitContainer accordionContent"
+        >
+          <div
+            className="sashContainer"
+          >
+            <Divider
+              className="sash disabled"
+              id="firstSash"
+              key="firstSash"
+              thickness={4}
+              vertical={false}
+            >
+              <div
+                className="msg divider horizontal sash disabled"
+                id="firstSash"
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "--thickness": "4px",
+                  }
+                }
+              />
+            </Divider>
+            <Divider
+              className="sash disabled"
+              id="secondSash"
+              key="secondSash"
+              thickness={4}
+              vertical={false}
+            >
+              <div
+                className="msg divider horizontal sash disabled"
+                id="secondSash"
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "--thickness": "4px",
+                  }
+                }
+              />
+            </Divider>
+          </div>
+          <div
+            className="splitContentContainer"
+          >
+            <Container
+              className="splitHost"
+              id="firstHost"
+              key="firstHost"
+              mainAlignment="stretch"
+              orientation="column"
+            >
+              <div
+                className="msg container fixedScrollbar splitHost"
+                id="firstHost"
+                style={
+                  Object {
+                    "alignItems": undefined,
+                    "flexDirection": "column",
+                    "flexWrap": undefined,
+                    "justifyContent": "stretch",
+                  }
+                }
+              >
+                <AccordionSection
+                  caption="FIRST SECTION"
+                  dimmed={false}
+                  expanded={false}
+                  id="first"
+                  onAction={[Function]}
+                  onToggleExpandState={[Function]}
+                >
+                  <Container
+                    className="msg section"
+                    innerRef={
+                      Object {
+                        "current": Object {},
+                      }
+                    }
+                    orientation="column"
+                  >
+                    <div
+                      className="msg container fixedScrollbar section"
+                      style={
+                        Object {
+                          "alignItems": undefined,
+                          "flexDirection": "column",
+                          "flexWrap": undefined,
+                          "justifyContent": undefined,
+                        }
+                      }
+                    >
+                      <Container
+                        className="title"
+                        crossAlignment="center"
+                        onClick={[Function]}
+                        onKeyPress={[Function]}
+                        orientation="row"
+                        tabIndex={0}
+                      >
+                        <div
+                          className="msg container fixedScrollbar title"
+                          onClick={[Function]}
+                          onKeyPress={[Function]}
+                          style={
+                            Object {
+                              "alignItems": "center",
+                              "flexDirection": "row",
+                              "flexWrap": undefined,
+                              "justifyContent": undefined,
+                            }
+                          }
+                          tabIndex={0}
+                        >
+                          <Label
+                            caption="FIRST SECTION"
+                          >
+                            <label
+                              className="msg label"
+                              data-tooltip="expand"
+                              style={
+                                Object {
+                                  "textAlign": undefined,
+                                }
+                              }
+                            >
+                              FIRST SECTION
+                            </label>
+                          </Label>
+                          <Container
+                            className="actions"
+                            crossAlignment="center"
+                            mainAlignment="flex-end"
+                            orientation="row"
+                          >
+                            <div
+                              className="msg container fixedScrollbar actions"
+                              style={
+                                Object {
+                                  "alignItems": "center",
+                                  "flexDirection": "row",
+                                  "flexWrap": undefined,
+                                  "justifyContent": "flex-end",
+                                }
+                              }
+                            />
+                          </Container>
+                        </div>
+                      </Container>
+                      <Container
+                        className="content"
+                        orientation="column"
+                        tabIndex={0}
+                      >
+                        <div
+                          className="msg container fixedScrollbar content"
+                          style={
+                            Object {
+                              "alignItems": undefined,
+                              "flexDirection": "column",
+                              "flexWrap": undefined,
+                              "justifyContent": undefined,
+                            }
+                          }
+                          tabIndex={0}
+                        >
+                          <AccordionItem
+                            caption="Item 1"
+                            id="item1"
+                            key="item1"
+                          >
+                            <Container
+                              className="msg accordionItem"
+                              crossAlignment="center"
+                              id="item1"
+                              orientation="row"
+                              tabIndex={0}
+                            >
+                              <div
+                                className="msg container fixedScrollbar accordionItem"
+                                id="item1"
+                                style={
+                                  Object {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "flexWrap": undefined,
+                                    "justifyContent": undefined,
+                                  }
+                                }
+                                tabIndex={0}
+                              >
+                                <Label
+                                  as="span"
+                                >
+                                  <span
+                                    className="msg label"
+                                    data-tooltip="expand"
+                                    style={
+                                      Object {
+                                        "textAlign": undefined,
+                                      }
+                                    }
+                                  >
+                                    Item 1
+                                  </span>
+                                </Label>
+                              </div>
+                            </Container>
+                          </AccordionItem>
+                          <AccordionItem
+                            caption="Item 2"
+                            id="item2"
+                            key="item2"
+                          >
+                            <Container
+                              className="msg accordionItem"
+                              crossAlignment="center"
+                              id="item2"
+                              orientation="row"
+                              tabIndex={0}
+                            >
+                              <div
+                                className="msg container fixedScrollbar accordionItem"
+                                id="item2"
+                                style={
+                                  Object {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "flexWrap": undefined,
+                                    "justifyContent": undefined,
+                                  }
+                                }
+                                tabIndex={0}
+                              >
+                                <Label
+                                  as="span"
+                                >
+                                  <span
+                                    className="msg label"
+                                    data-tooltip="expand"
+                                    style={
+                                      Object {
+                                        "textAlign": undefined,
+                                      }
+                                    }
+                                  >
+                                    Item 2
+                                  </span>
+                                </Label>
+                              </div>
+                            </Container>
+                          </AccordionItem>
+                          <AccordionItem
+                            caption="Item 3"
+                            id="item3"
+                            key="item3"
+                          >
+                            <Container
+                              className="msg accordionItem"
+                              crossAlignment="center"
+                              id="item3"
+                              orientation="row"
+                              tabIndex={0}
+                            >
+                              <div
+                                className="msg container fixedScrollbar accordionItem"
+                                id="item3"
+                                style={
+                                  Object {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "flexWrap": undefined,
+                                    "justifyContent": undefined,
+                                  }
+                                }
+                                tabIndex={0}
+                              >
+                                <Label
+                                  as="span"
+                                >
+                                  <span
+                                    className="msg label"
+                                    data-tooltip="expand"
+                                    style={
+                                      Object {
+                                        "textAlign": undefined,
+                                      }
+                                    }
+                                  >
+                                    Item 3
+                                  </span>
+                                </Label>
+                              </div>
+                            </Container>
+                          </AccordionItem>
+                        </div>
+                      </Container>
+                    </div>
+                  </Container>
+                </AccordionSection>
+              </div>
+            </Container>
+            <Container
+              className="splitHost"
+              id="secondHost"
+              key="secondHost"
+              mainAlignment="stretch"
+              orientation="column"
+            >
+              <div
+                className="msg container fixedScrollbar splitHost"
+                id="secondHost"
+                style={
+                  Object {
+                    "alignItems": undefined,
+                    "flexDirection": "column",
+                    "flexWrap": undefined,
+                    "justifyContent": "stretch",
+                  }
+                }
+              >
+                <AccordionSection
+                  caption="SECOND SECTION"
+                  dimmed={false}
+                  expanded={true}
+                  id="second"
+                  onAction={[Function]}
+                  onToggleExpandState={[Function]}
+                >
+                  <Container
+                    className="msg section expanded"
+                    innerRef={
+                      Object {
+                        "current": Object {},
+                      }
+                    }
+                    orientation="column"
+                  >
+                    <div
+                      className="msg container fixedScrollbar section expanded"
+                      style={
+                        Object {
+                          "alignItems": undefined,
+                          "flexDirection": "column",
+                          "flexWrap": undefined,
+                          "justifyContent": undefined,
+                        }
+                      }
+                    >
+                      <Container
+                        className="title"
+                        crossAlignment="center"
+                        onClick={[Function]}
+                        onKeyPress={[Function]}
+                        orientation="row"
+                        tabIndex={0}
+                      >
+                        <div
+                          className="msg container fixedScrollbar title"
+                          onClick={[Function]}
+                          onKeyPress={[Function]}
+                          style={
+                            Object {
+                              "alignItems": "center",
+                              "flexDirection": "row",
+                              "flexWrap": undefined,
+                              "justifyContent": undefined,
+                            }
+                          }
+                          tabIndex={0}
+                        >
+                          <Label
+                            caption="SECOND SECTION"
+                          >
+                            <label
+                              className="msg label"
+                              data-tooltip="expand"
+                              style={
+                                Object {
+                                  "textAlign": undefined,
+                                }
+                              }
+                            >
+                              SECOND SECTION
+                            </label>
+                          </Label>
+                          <Container
+                            className="actions"
+                            crossAlignment="center"
+                            mainAlignment="flex-end"
+                            orientation="row"
+                          >
+                            <div
+                              className="msg container fixedScrollbar actions"
+                              style={
+                                Object {
+                                  "alignItems": "center",
+                                  "flexDirection": "row",
+                                  "flexWrap": undefined,
+                                  "justifyContent": "flex-end",
+                                }
+                              }
+                            />
+                          </Container>
+                        </div>
+                      </Container>
+                      <Container
+                        className="content"
+                        orientation="column"
+                        tabIndex={0}
+                      >
+                        <div
+                          className="msg container fixedScrollbar content"
+                          style={
+                            Object {
+                              "alignItems": undefined,
+                              "flexDirection": "column",
+                              "flexWrap": undefined,
+                              "justifyContent": undefined,
+                            }
+                          }
+                          tabIndex={0}
+                        >
+                          <AccordionItem
+                            caption="Item 5"
+                            id="item5"
+                            key="item5"
+                            picture="connections.svg"
+                          >
+                            <Container
+                              className="msg accordionItem"
+                              crossAlignment="center"
+                              id="item5"
+                              orientation="row"
+                              picture="connections.svg"
+                              tabIndex={0}
+                            >
+                              <div
+                                className="msg container fixedScrollbar accordionItem"
+                                id="item5"
+                                picture="connections.svg"
+                                style={
+                                  Object {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "flexWrap": undefined,
+                                    "justifyContent": undefined,
+                                  }
+                                }
+                                tabIndex={0}
+                              >
+                                <Image
+                                  as="span"
+                                  disabled={false}
+                                  height="20px"
+                                  src="connections.svg"
+                                  width="20px"
+                                >
+                                  <img
+                                    className="msg image"
+                                    height="20px"
+                                    src="connections.svg"
+                                    width="20px"
+                                  />
+                                </Image>
+                                <Label
+                                  as="span"
+                                >
+                                  <span
+                                    className="msg label"
+                                    data-tooltip="expand"
+                                    style={
+                                      Object {
+                                        "textAlign": undefined,
+                                      }
+                                    }
+                                  >
+                                    Item 5
+                                  </span>
+                                </Label>
+                              </div>
+                            </Container>
+                          </AccordionItem>
+                          <AccordionItem
+                            caption="Item 6"
+                            id="item6"
+                            key="item6"
+                            picture="connections.svg"
+                          >
+                            <Container
+                              className="msg accordionItem"
+                              crossAlignment="center"
+                              id="item6"
+                              orientation="row"
+                              picture="connections.svg"
+                              tabIndex={0}
+                            >
+                              <div
+                                className="msg container fixedScrollbar accordionItem"
+                                id="item6"
+                                picture="connections.svg"
+                                style={
+                                  Object {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "flexWrap": undefined,
+                                    "justifyContent": undefined,
+                                  }
+                                }
+                                tabIndex={0}
+                              >
+                                <Image
+                                  as="span"
+                                  disabled={false}
+                                  height="20px"
+                                  src="connections.svg"
+                                  width="20px"
+                                >
+                                  <img
+                                    className="msg image"
+                                    height="20px"
+                                    src="connections.svg"
+                                    width="20px"
+                                  />
+                                </Image>
+                                <Label
+                                  as="span"
+                                >
+                                  <span
+                                    className="msg label"
+                                    data-tooltip="expand"
+                                    style={
+                                      Object {
+                                        "textAlign": undefined,
+                                      }
+                                    }
+                                  >
+                                    Item 6
+                                  </span>
+                                </Label>
+                              </div>
+                            </Container>
+                          </AccordionItem>
+                          <AccordionItem
+                            caption="Item 7"
+                            id="item7"
+                            key="item7"
+                            picture="connections.svg"
+                          >
+                            <Container
+                              className="msg accordionItem"
+                              crossAlignment="center"
+                              id="item7"
+                              orientation="row"
+                              picture="connections.svg"
+                              tabIndex={0}
+                            >
+                              <div
+                                className="msg container fixedScrollbar accordionItem"
+                                id="item7"
+                                picture="connections.svg"
+                                style={
+                                  Object {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "flexWrap": undefined,
+                                    "justifyContent": undefined,
+                                  }
+                                }
+                                tabIndex={0}
+                              >
+                                <Image
+                                  as="span"
+                                  disabled={false}
+                                  height="20px"
+                                  src="connections.svg"
+                                  width="20px"
+                                >
+                                  <img
+                                    className="msg image"
+                                    height="20px"
+                                    src="connections.svg"
+                                    width="20px"
+                                  />
+                                </Image>
+                                <Label
+                                  as="span"
+                                >
+                                  <span
+                                    className="msg label"
+                                    data-tooltip="expand"
+                                    style={
+                                      Object {
+                                        "textAlign": undefined,
+                                      }
+                                    }
+                                  >
+                                    Item 7
+                                  </span>
+                                </Label>
+                              </div>
+                            </Container>
+                          </AccordionItem>
+                        </div>
+                      </Container>
+                    </div>
+                  </Container>
+                </AccordionSection>
+              </div>
+            </Container>
+            <Container
+              className="splitHost"
+              id="thirdHost"
+              key="thirdHost"
+              mainAlignment="stretch"
+              orientation="column"
+            >
+              <div
+                className="msg container fixedScrollbar splitHost"
+                id="thirdHost"
+                style={
+                  Object {
+                    "alignItems": undefined,
+                    "flexDirection": "column",
+                    "flexWrap": undefined,
+                    "justifyContent": "stretch",
+                  }
+                }
+              >
+                <AccordionSection
+                  caption="THIRD SECTION"
+                  dimmed={false}
+                  expanded={true}
+                  id="third"
+                  onAction={[Function]}
+                  onToggleExpandState={[Function]}
+                >
+                  <Container
+                    className="msg section expanded"
+                    innerRef={
+                      Object {
+                        "current": Object {},
+                      }
+                    }
+                    orientation="column"
+                  >
+                    <div
+                      className="msg container fixedScrollbar section expanded"
+                      style={
+                        Object {
+                          "alignItems": undefined,
+                          "flexDirection": "column",
+                          "flexWrap": undefined,
+                          "justifyContent": undefined,
+                        }
+                      }
+                    >
+                      <Container
+                        className="title"
+                        crossAlignment="center"
+                        onClick={[Function]}
+                        onKeyPress={[Function]}
+                        orientation="row"
+                        tabIndex={0}
+                      >
+                        <div
+                          className="msg container fixedScrollbar title"
+                          onClick={[Function]}
+                          onKeyPress={[Function]}
+                          style={
+                            Object {
+                              "alignItems": "center",
+                              "flexDirection": "row",
+                              "flexWrap": undefined,
+                              "justifyContent": undefined,
+                            }
+                          }
+                          tabIndex={0}
+                        >
+                          <Label
+                            caption="THIRD SECTION"
+                          >
+                            <label
+                              className="msg label"
+                              data-tooltip="expand"
+                              style={
+                                Object {
+                                  "textAlign": undefined,
+                                }
+                              }
+                            >
+                              THIRD SECTION
+                            </label>
+                          </Label>
+                          <Container
+                            className="actions"
+                            crossAlignment="center"
+                            mainAlignment="flex-end"
+                            orientation="row"
+                          >
+                            <div
+                              className="msg container fixedScrollbar actions"
+                              style={
+                                Object {
+                                  "alignItems": "center",
+                                  "flexDirection": "row",
+                                  "flexWrap": undefined,
+                                  "justifyContent": "flex-end",
+                                }
+                              }
+                            />
+                          </Container>
+                        </div>
+                      </Container>
+                      <Container
+                        className="content"
+                        orientation="column"
+                        tabIndex={0}
+                      >
+                        <div
+                          className="msg container fixedScrollbar content"
+                          style={
+                            Object {
+                              "alignItems": undefined,
+                              "flexDirection": "column",
+                              "flexWrap": undefined,
+                              "justifyContent": undefined,
+                            }
+                          }
+                          tabIndex={0}
+                        >
+                          <AccordionItem
+                            caption="Item 9"
+                            id="item9"
+                            key="item9"
+                          >
+                            <Container
+                              className="msg accordionItem"
+                              crossAlignment="center"
+                              id="item9"
+                              orientation="row"
+                              tabIndex={0}
+                            >
+                              <div
+                                className="msg container fixedScrollbar accordionItem"
+                                id="item9"
+                                style={
+                                  Object {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "flexWrap": undefined,
+                                    "justifyContent": undefined,
+                                  }
+                                }
+                                tabIndex={0}
+                              >
+                                <Label
+                                  as="span"
+                                >
+                                  <span
+                                    className="msg label"
+                                    data-tooltip="expand"
+                                    style={
+                                      Object {
+                                        "textAlign": undefined,
+                                      }
+                                    }
+                                  >
+                                    Item 9
+                                  </span>
+                                </Label>
+                              </div>
+                            </Container>
+                          </AccordionItem>
+                          <AccordionItem
+                            caption="Item 10"
+                            id="item10"
+                            key="item10"
+                          >
+                            <Container
+                              className="msg accordionItem"
+                              crossAlignment="center"
+                              id="item10"
+                              orientation="row"
+                              tabIndex={0}
+                            >
+                              <div
+                                className="msg container fixedScrollbar accordionItem"
+                                id="item10"
+                                style={
+                                  Object {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "flexWrap": undefined,
+                                    "justifyContent": undefined,
+                                  }
+                                }
+                                tabIndex={0}
+                              >
+                                <Label
+                                  as="span"
+                                >
+                                  <span
+                                    className="msg label"
+                                    data-tooltip="expand"
+                                    style={
+                                      Object {
+                                        "textAlign": undefined,
+                                      }
+                                    }
+                                  >
+                                    Item 10
+                                  </span>
+                                </Label>
+                              </div>
+                            </Container>
+                          </AccordionItem>
+                          <AccordionItem
+                            caption="Item 11"
+                            id="item11"
+                            key="item11"
+                          >
+                            <Container
+                              className="msg accordionItem"
+                              crossAlignment="center"
+                              id="item11"
+                              orientation="row"
+                              tabIndex={0}
+                            >
+                              <div
+                                className="msg container fixedScrollbar accordionItem"
+                                id="item11"
+                                style={
+                                  Object {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "flexWrap": undefined,
+                                    "justifyContent": undefined,
+                                  }
+                                }
+                                tabIndex={0}
+                              >
+                                <Label
+                                  as="span"
+                                >
+                                  <span
+                                    className="msg label"
+                                    data-tooltip="expand"
+                                    style={
+                                      Object {
+                                        "textAlign": undefined,
+                                      }
+                                    }
+                                  >
+                                    Item 11
+                                  </span>
+                                </Label>
+                              </div>
+                            </Container>
+                          </AccordionItem>
+                        </div>
+                      </Container>
+                    </div>
+                  </Container>
+                </AccordionSection>
+              </div>
+            </Container>
+          </div>
+        </div>
+      </SplitContainer>
+      <Label
+        className="footer"
+      >
+        <label
+          className="msg label footer"
+          data-tooltip="expand"
+          style={
+            Object {
+              "textAlign": undefined,
+            }
+          }
+        >
+          Lorem ipsum dolor sit amen, consenter
+        </label>
+      </Label>
+    </div>
+  </Container>
+</Accordion>
+`;

@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "module": "commonjs",
+        "target": "es6",
+        "outDir": "output",
+        "removeComments": true,
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "inlineSources": true,
+        "isolatedModules": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "strictNullChecks": true,
+        "alwaysStrict": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true
+    },
+    "compileOnSave": true,
+    "include": [
+        "src/*.ts",
+        "src/**/*.ts",
+        "../frontend/src/modules/db-editor/assets/typings/scripting-runtime.d.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        ".vscode-test",
+        "test-resources",
+        "tests/e2e/**/*.ts"
+    ]
+}

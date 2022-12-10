@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Label component test Label with ansi formatting 1`] = `
+<Label
+  caption="Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua."
+  language="ansi"
+>
+  <Container
+    className="msg resultText"
+    language="ansi"
+    orientation="column"
+  >
+    <div
+      className="msg container fixedScrollbar resultText"
+      language="ansi"
+      style={
+        Object {
+          "alignItems": undefined,
+          "flexDirection": "column",
+          "flexWrap": undefined,
+          "justifyContent": undefined,
+        }
+      }
+    >
+      <Ansi
+        useClasses={true}
+      >
+        <code>
+          <span>
+            Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+          </span>
+        </code>
+      </Ansi>
+    </div>
+  </Container>
+</Label>
+`;
+
+exports[`Label component test Test Label output 1`] = `
+<Label
+  as="h1"
+>
+  <h1
+    className="msg label"
+    data-tooltip="expand"
+    style={
+      Object {
+        "textAlign": undefined,
+      }
+    }
+  >
+    H1 Label
+  </h1>
+</Label>
+`;

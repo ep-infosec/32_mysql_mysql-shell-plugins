@@ -1,0 +1,916 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Selector component tests Test Selector output (snapshot) 1`] = `
+<Selector
+  activeItemId=""
+  entryOrientation="column"
+  id="selector1"
+  items={
+    Array [
+      Object {
+        "caption": "1",
+        "icon": "connections.svg",
+      },
+      Object {
+        "caption": "2",
+        "icon": "connections.svg",
+      },
+      Object {
+        "caption": "3",
+        "icon": "connections.svg",
+      },
+      Object {
+        "caption": "4",
+        "icon": "connections.svg",
+      },
+      Object {
+        "caption": "5",
+        "icon": "connections.svg",
+      },
+      Object {
+        "caption": "6",
+        "icon": "connections.svg",
+      },
+      Object {
+        "caption": "7",
+        "icon": "connections.svg",
+      },
+      Object {
+        "caption": "8",
+        "icon": "connections.svg",
+      },
+      Object {
+        "caption": "9",
+        "icon": "connections.svg",
+      },
+      Object {
+        "caption": "10",
+        "icon": "connections.svg",
+      },
+    ]
+  }
+  orientation="column"
+  smoothScroll={true}
+  wrapNavigation={true}
+>
+  <Container
+    className="msg selector vertical smoothScroll"
+    id="selector1"
+    innerRef={
+      Object {
+        "current": Object {
+          "l": Object {
+            "dragenterfalse": [Function],
+            "dragleavefalse": [Function],
+            "dragoverfalse": [Function],
+            "dragstartfalse": [Function],
+            "dropfalse": [Function],
+          },
+        },
+      }
+    }
+    onDragEnter={[Function]}
+    onDragLeave={[Function]}
+    onDragOver={[Function]}
+    onDragStart={[Function]}
+    onDrop={[Function]}
+    onResize={[Function]}
+    orientation="column"
+  >
+    <div
+      className="msg container fixedScrollbar selector vertical smoothScroll"
+      id="selector1"
+      onDragEnter={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+      style={
+        Object {
+          "alignItems": undefined,
+          "flexDirection": "column",
+          "flexWrap": undefined,
+          "justifyContent": undefined,
+        }
+      }
+    >
+      <SelectorItem
+        disabled={false}
+        id="selector1ItemstepDown"
+        innerRef={
+          Object {
+            "current": Object {
+              "l": Object {
+                "clickfalse": [Function],
+              },
+            },
+          }
+        }
+        onClick={[Function]}
+        orientation="row"
+        type="stepDown"
+      >
+        <Container
+          className="msg selectorItem stepDown"
+          crossAlignment="center"
+          id="selector1ItemstepDown"
+          innerRef={
+            Object {
+              "current": Object {
+                "l": Object {
+                  "clickfalse": [Function],
+                },
+              },
+            }
+          }
+          mainAlignment="center"
+          onClick={[Function]}
+          orientation="row"
+        >
+          <div
+            className="msg container fixedScrollbar selectorItem stepDown"
+            id="selector1ItemstepDown"
+            onClick={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "flexWrap": undefined,
+                "justifyContent": "center",
+              }
+            }
+          />
+        </Container>
+      </SelectorItem>
+      <SelectorItem
+        caption="1"
+        disabled={false}
+        id="selector1Item0"
+        image="connections.svg"
+        key="selector1Item0"
+        onClick={[Function]}
+        onDrop={[Function]}
+        orientation="column"
+        selected={false}
+        type="normal"
+      >
+        <Container
+          className="msg selectorItem normal"
+          crossAlignment="center"
+          id="selector1Item0"
+          mainAlignment="center"
+          onClick={[Function]}
+          onDrop={[Function]}
+          orientation="column"
+        >
+          <div
+            className="msg container fixedScrollbar selectorItem normal"
+            id="selector1Item0"
+            onClick={[Function]}
+            onDrop={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "column",
+                "flexWrap": undefined,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Icon
+              data-tooltip="inherit"
+              disabled={false}
+              src="connections.svg"
+            >
+              <div
+                className="msg icon"
+                data-tooltip="inherit"
+                style={
+                  Object {
+                    "WebkitMaskImage": "url(connections.svg)",
+                    "backgroundColor": undefined,
+                    "height": undefined,
+                    "maskImage": "url(connections.svg)",
+                    "width": undefined,
+                  }
+                }
+              />
+            </Icon>
+            <Label
+              data-tooltip="inherit"
+            >
+              <label
+                className="msg label"
+                data-tooltip="inherit"
+                style={
+                  Object {
+                    "textAlign": undefined,
+                  }
+                }
+              >
+                1
+              </label>
+            </Label>
+          </div>
+        </Container>
+      </SelectorItem>
+      <SelectorItem
+        caption="2"
+        disabled={false}
+        id="selector1Item1"
+        image="connections.svg"
+        key="selector1Item1"
+        onClick={[Function]}
+        onDrop={[Function]}
+        orientation="column"
+        selected={false}
+        type="normal"
+      >
+        <Container
+          className="msg selectorItem normal"
+          crossAlignment="center"
+          id="selector1Item1"
+          mainAlignment="center"
+          onClick={[Function]}
+          onDrop={[Function]}
+          orientation="column"
+        >
+          <div
+            className="msg container fixedScrollbar selectorItem normal"
+            id="selector1Item1"
+            onClick={[Function]}
+            onDrop={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "column",
+                "flexWrap": undefined,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Icon
+              data-tooltip="inherit"
+              disabled={false}
+              src="connections.svg"
+            >
+              <div
+                className="msg icon"
+                data-tooltip="inherit"
+                style={
+                  Object {
+                    "WebkitMaskImage": "url(connections.svg)",
+                    "backgroundColor": undefined,
+                    "height": undefined,
+                    "maskImage": "url(connections.svg)",
+                    "width": undefined,
+                  }
+                }
+              />
+            </Icon>
+            <Label
+              data-tooltip="inherit"
+            >
+              <label
+                className="msg label"
+                data-tooltip="inherit"
+                style={
+                  Object {
+                    "textAlign": undefined,
+                  }
+                }
+              >
+                2
+              </label>
+            </Label>
+          </div>
+        </Container>
+      </SelectorItem>
+      <SelectorItem
+        caption="3"
+        disabled={false}
+        id="selector1Item2"
+        image="connections.svg"
+        key="selector1Item2"
+        onClick={[Function]}
+        onDrop={[Function]}
+        orientation="column"
+        selected={false}
+        type="normal"
+      >
+        <Container
+          className="msg selectorItem normal"
+          crossAlignment="center"
+          id="selector1Item2"
+          mainAlignment="center"
+          onClick={[Function]}
+          onDrop={[Function]}
+          orientation="column"
+        >
+          <div
+            className="msg container fixedScrollbar selectorItem normal"
+            id="selector1Item2"
+            onClick={[Function]}
+            onDrop={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "column",
+                "flexWrap": undefined,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Icon
+              data-tooltip="inherit"
+              disabled={false}
+              src="connections.svg"
+            >
+              <div
+                className="msg icon"
+                data-tooltip="inherit"
+                style={
+                  Object {
+                    "WebkitMaskImage": "url(connections.svg)",
+                    "backgroundColor": undefined,
+                    "height": undefined,
+                    "maskImage": "url(connections.svg)",
+                    "width": undefined,
+                  }
+                }
+              />
+            </Icon>
+            <Label
+              data-tooltip="inherit"
+            >
+              <label
+                className="msg label"
+                data-tooltip="inherit"
+                style={
+                  Object {
+                    "textAlign": undefined,
+                  }
+                }
+              >
+                3
+              </label>
+            </Label>
+          </div>
+        </Container>
+      </SelectorItem>
+      <SelectorItem
+        caption="4"
+        disabled={false}
+        id="selector1Item3"
+        image="connections.svg"
+        key="selector1Item3"
+        onClick={[Function]}
+        onDrop={[Function]}
+        orientation="column"
+        selected={false}
+        type="normal"
+      >
+        <Container
+          className="msg selectorItem normal"
+          crossAlignment="center"
+          id="selector1Item3"
+          mainAlignment="center"
+          onClick={[Function]}
+          onDrop={[Function]}
+          orientation="column"
+        >
+          <div
+            className="msg container fixedScrollbar selectorItem normal"
+            id="selector1Item3"
+            onClick={[Function]}
+            onDrop={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "column",
+                "flexWrap": undefined,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Icon
+              data-tooltip="inherit"
+              disabled={false}
+              src="connections.svg"
+            >
+              <div
+                className="msg icon"
+                data-tooltip="inherit"
+                style={
+                  Object {
+                    "WebkitMaskImage": "url(connections.svg)",
+                    "backgroundColor": undefined,
+                    "height": undefined,
+                    "maskImage": "url(connections.svg)",
+                    "width": undefined,
+                  }
+                }
+              />
+            </Icon>
+            <Label
+              data-tooltip="inherit"
+            >
+              <label
+                className="msg label"
+                data-tooltip="inherit"
+                style={
+                  Object {
+                    "textAlign": undefined,
+                  }
+                }
+              >
+                4
+              </label>
+            </Label>
+          </div>
+        </Container>
+      </SelectorItem>
+      <SelectorItem
+        caption="5"
+        disabled={false}
+        id="selector1Item4"
+        image="connections.svg"
+        key="selector1Item4"
+        onClick={[Function]}
+        onDrop={[Function]}
+        orientation="column"
+        selected={false}
+        type="normal"
+      >
+        <Container
+          className="msg selectorItem normal"
+          crossAlignment="center"
+          id="selector1Item4"
+          mainAlignment="center"
+          onClick={[Function]}
+          onDrop={[Function]}
+          orientation="column"
+        >
+          <div
+            className="msg container fixedScrollbar selectorItem normal"
+            id="selector1Item4"
+            onClick={[Function]}
+            onDrop={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "column",
+                "flexWrap": undefined,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Icon
+              data-tooltip="inherit"
+              disabled={false}
+              src="connections.svg"
+            >
+              <div
+                className="msg icon"
+                data-tooltip="inherit"
+                style={
+                  Object {
+                    "WebkitMaskImage": "url(connections.svg)",
+                    "backgroundColor": undefined,
+                    "height": undefined,
+                    "maskImage": "url(connections.svg)",
+                    "width": undefined,
+                  }
+                }
+              />
+            </Icon>
+            <Label
+              data-tooltip="inherit"
+            >
+              <label
+                className="msg label"
+                data-tooltip="inherit"
+                style={
+                  Object {
+                    "textAlign": undefined,
+                  }
+                }
+              >
+                5
+              </label>
+            </Label>
+          </div>
+        </Container>
+      </SelectorItem>
+      <SelectorItem
+        caption="6"
+        disabled={false}
+        id="selector1Item5"
+        image="connections.svg"
+        key="selector1Item5"
+        onClick={[Function]}
+        onDrop={[Function]}
+        orientation="column"
+        selected={false}
+        type="normal"
+      >
+        <Container
+          className="msg selectorItem normal"
+          crossAlignment="center"
+          id="selector1Item5"
+          mainAlignment="center"
+          onClick={[Function]}
+          onDrop={[Function]}
+          orientation="column"
+        >
+          <div
+            className="msg container fixedScrollbar selectorItem normal"
+            id="selector1Item5"
+            onClick={[Function]}
+            onDrop={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "column",
+                "flexWrap": undefined,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Icon
+              data-tooltip="inherit"
+              disabled={false}
+              src="connections.svg"
+            >
+              <div
+                className="msg icon"
+                data-tooltip="inherit"
+                style={
+                  Object {
+                    "WebkitMaskImage": "url(connections.svg)",
+                    "backgroundColor": undefined,
+                    "height": undefined,
+                    "maskImage": "url(connections.svg)",
+                    "width": undefined,
+                  }
+                }
+              />
+            </Icon>
+            <Label
+              data-tooltip="inherit"
+            >
+              <label
+                className="msg label"
+                data-tooltip="inherit"
+                style={
+                  Object {
+                    "textAlign": undefined,
+                  }
+                }
+              >
+                6
+              </label>
+            </Label>
+          </div>
+        </Container>
+      </SelectorItem>
+      <SelectorItem
+        caption="7"
+        disabled={false}
+        id="selector1Item6"
+        image="connections.svg"
+        key="selector1Item6"
+        onClick={[Function]}
+        onDrop={[Function]}
+        orientation="column"
+        selected={false}
+        type="normal"
+      >
+        <Container
+          className="msg selectorItem normal"
+          crossAlignment="center"
+          id="selector1Item6"
+          mainAlignment="center"
+          onClick={[Function]}
+          onDrop={[Function]}
+          orientation="column"
+        >
+          <div
+            className="msg container fixedScrollbar selectorItem normal"
+            id="selector1Item6"
+            onClick={[Function]}
+            onDrop={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "column",
+                "flexWrap": undefined,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Icon
+              data-tooltip="inherit"
+              disabled={false}
+              src="connections.svg"
+            >
+              <div
+                className="msg icon"
+                data-tooltip="inherit"
+                style={
+                  Object {
+                    "WebkitMaskImage": "url(connections.svg)",
+                    "backgroundColor": undefined,
+                    "height": undefined,
+                    "maskImage": "url(connections.svg)",
+                    "width": undefined,
+                  }
+                }
+              />
+            </Icon>
+            <Label
+              data-tooltip="inherit"
+            >
+              <label
+                className="msg label"
+                data-tooltip="inherit"
+                style={
+                  Object {
+                    "textAlign": undefined,
+                  }
+                }
+              >
+                7
+              </label>
+            </Label>
+          </div>
+        </Container>
+      </SelectorItem>
+      <SelectorItem
+        caption="8"
+        disabled={false}
+        id="selector1Item7"
+        image="connections.svg"
+        key="selector1Item7"
+        onClick={[Function]}
+        onDrop={[Function]}
+        orientation="column"
+        selected={false}
+        type="normal"
+      >
+        <Container
+          className="msg selectorItem normal"
+          crossAlignment="center"
+          id="selector1Item7"
+          mainAlignment="center"
+          onClick={[Function]}
+          onDrop={[Function]}
+          orientation="column"
+        >
+          <div
+            className="msg container fixedScrollbar selectorItem normal"
+            id="selector1Item7"
+            onClick={[Function]}
+            onDrop={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "column",
+                "flexWrap": undefined,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Icon
+              data-tooltip="inherit"
+              disabled={false}
+              src="connections.svg"
+            >
+              <div
+                className="msg icon"
+                data-tooltip="inherit"
+                style={
+                  Object {
+                    "WebkitMaskImage": "url(connections.svg)",
+                    "backgroundColor": undefined,
+                    "height": undefined,
+                    "maskImage": "url(connections.svg)",
+                    "width": undefined,
+                  }
+                }
+              />
+            </Icon>
+            <Label
+              data-tooltip="inherit"
+            >
+              <label
+                className="msg label"
+                data-tooltip="inherit"
+                style={
+                  Object {
+                    "textAlign": undefined,
+                  }
+                }
+              >
+                8
+              </label>
+            </Label>
+          </div>
+        </Container>
+      </SelectorItem>
+      <SelectorItem
+        caption="9"
+        disabled={false}
+        id="selector1Item8"
+        image="connections.svg"
+        key="selector1Item8"
+        onClick={[Function]}
+        onDrop={[Function]}
+        orientation="column"
+        selected={false}
+        type="normal"
+      >
+        <Container
+          className="msg selectorItem normal"
+          crossAlignment="center"
+          id="selector1Item8"
+          mainAlignment="center"
+          onClick={[Function]}
+          onDrop={[Function]}
+          orientation="column"
+        >
+          <div
+            className="msg container fixedScrollbar selectorItem normal"
+            id="selector1Item8"
+            onClick={[Function]}
+            onDrop={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "column",
+                "flexWrap": undefined,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Icon
+              data-tooltip="inherit"
+              disabled={false}
+              src="connections.svg"
+            >
+              <div
+                className="msg icon"
+                data-tooltip="inherit"
+                style={
+                  Object {
+                    "WebkitMaskImage": "url(connections.svg)",
+                    "backgroundColor": undefined,
+                    "height": undefined,
+                    "maskImage": "url(connections.svg)",
+                    "width": undefined,
+                  }
+                }
+              />
+            </Icon>
+            <Label
+              data-tooltip="inherit"
+            >
+              <label
+                className="msg label"
+                data-tooltip="inherit"
+                style={
+                  Object {
+                    "textAlign": undefined,
+                  }
+                }
+              >
+                9
+              </label>
+            </Label>
+          </div>
+        </Container>
+      </SelectorItem>
+      <SelectorItem
+        caption="10"
+        disabled={false}
+        id="selector1Item9"
+        image="connections.svg"
+        key="selector1Item9"
+        onClick={[Function]}
+        onDrop={[Function]}
+        orientation="column"
+        selected={false}
+        type="normal"
+      >
+        <Container
+          className="msg selectorItem normal"
+          crossAlignment="center"
+          id="selector1Item9"
+          mainAlignment="center"
+          onClick={[Function]}
+          onDrop={[Function]}
+          orientation="column"
+        >
+          <div
+            className="msg container fixedScrollbar selectorItem normal"
+            id="selector1Item9"
+            onClick={[Function]}
+            onDrop={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "column",
+                "flexWrap": undefined,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Icon
+              data-tooltip="inherit"
+              disabled={false}
+              src="connections.svg"
+            >
+              <div
+                className="msg icon"
+                data-tooltip="inherit"
+                style={
+                  Object {
+                    "WebkitMaskImage": "url(connections.svg)",
+                    "backgroundColor": undefined,
+                    "height": undefined,
+                    "maskImage": "url(connections.svg)",
+                    "width": undefined,
+                  }
+                }
+              />
+            </Icon>
+            <Label
+              data-tooltip="inherit"
+            >
+              <label
+                className="msg label"
+                data-tooltip="inherit"
+                style={
+                  Object {
+                    "textAlign": undefined,
+                  }
+                }
+              >
+                10
+              </label>
+            </Label>
+          </div>
+        </Container>
+      </SelectorItem>
+      <SelectorItem
+        disabled={false}
+        id="selector1ItemstepUp"
+        innerRef={
+          Object {
+            "current": Object {
+              "l": Object {
+                "clickfalse": [Function],
+              },
+            },
+          }
+        }
+        onClick={[Function]}
+        orientation="row"
+        type="stepUp"
+      >
+        <Container
+          className="msg selectorItem stepUp"
+          crossAlignment="center"
+          id="selector1ItemstepUp"
+          innerRef={
+            Object {
+              "current": Object {
+                "l": Object {
+                  "clickfalse": [Function],
+                },
+              },
+            }
+          }
+          mainAlignment="center"
+          onClick={[Function]}
+          orientation="row"
+        >
+          <div
+            className="msg container fixedScrollbar selectorItem stepUp"
+            id="selector1ItemstepUp"
+            onClick={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "flexWrap": undefined,
+                "justifyContent": "center",
+              }
+            }
+          />
+        </Container>
+      </SelectorItem>
+    </div>
+  </Container>
+</Selector>
+`;

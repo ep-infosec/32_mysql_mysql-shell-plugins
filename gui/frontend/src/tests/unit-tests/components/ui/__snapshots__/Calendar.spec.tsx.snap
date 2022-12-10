@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calendar render testing Test Calendar (Snapshot) 1`] = `
+<Calendar
+  initialDate={Object {}}
+  onChange={[Function]}
+>
+  <Popup
+    className="msg calendarHost"
+    orientation="column"
+    pinned={false}
+    placement="bottom"
+    showArrow={true}
+  >
+    <Portal
+      onClose={[Function]}
+      onOpen={[Function]}
+    />
+  </Popup>
+</Calendar>
+`;

@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component tests Test checkbox output (Snapshot) 1`] = `
+<div>
+  <Container
+    orientation="row"
+  >
+    <div
+      className="msg container fixedScrollbar"
+      style={
+        Object {
+          "alignItems": undefined,
+          "flexDirection": "row",
+          "flexWrap": undefined,
+          "justifyContent": undefined,
+        }
+      }
+    >
+      <Button
+        caption="Normal Button"
+        id="button1"
+      >
+        <button
+          caption="Normal Button"
+          className="msg button"
+          id="button1"
+          onMouseDown={[Function]}
+          style={
+            Object {
+              "flexDirection": undefined,
+            }
+          }
+          tabIndex={0}
+        >
+          Normal Button
+        </button>
+      </Button>
+      <Button
+        caption="Disabled Button"
+        disabled={true}
+        id="button2"
+      >
+        <button
+          caption="Disabled Button"
+          className="msg button"
+          disabled={true}
+          id="button2"
+          onMouseDown={[Function]}
+          style={
+            Object {
+              "flexDirection": undefined,
+            }
+          }
+          tabIndex={0}
+        >
+          Disabled Button
+        </button>
+      </Button>
+    </div>
+  </Container>
+  <Container
+    orientation="row"
+  >
+    <div
+      className="msg container fixedScrollbar"
+      style={
+        Object {
+          "alignItems": undefined,
+          "flexDirection": "row",
+          "flexWrap": undefined,
+          "justifyContent": undefined,
+        }
+      }
+    >
+      <Button
+        id="button3"
+        orientation="column"
+      >
+        <button
+          className="msg button"
+          id="button3"
+          onMouseDown={[Function]}
+          style={
+            Object {
+              "flexDirection": "column",
+            }
+          }
+          tabIndex={0}
+        >
+          Button
+          <h2>
+            with content
+          </h2>
+        </button>
+      </Button>
+      <Button
+        id="button4"
+      >
+        <button
+          className="msg button"
+          id="button4"
+          onMouseDown={[Function]}
+          style={
+            Object {
+              "flexDirection": undefined,
+            }
+          }
+          tabIndex={0}
+        >
+          <Image
+            disabled={false}
+            src="close.svg"
+          >
+            <img
+              className="msg image"
+              src="close.svg"
+            />
+          </Image>
+          Image Button
+        </button>
+      </Button>
+    </div>
+  </Container>
+  <Button
+    caption="Large Button"
+    id="button5"
+    size="big"
+  >
+    <button
+      caption="Large Button"
+      className="msg button big"
+      id="button5"
+      onMouseDown={[Function]}
+      style={
+        Object {
+          "flexDirection": undefined,
+        }
+      }
+      tabIndex={0}
+    >
+      Large Button
+    </button>
+  </Button>
+  <Container
+    orientation="row"
+  >
+    <div
+      className="msg container fixedScrollbar"
+      style={
+        Object {
+          "alignItems": undefined,
+          "flexDirection": "row",
+          "flexWrap": undefined,
+          "justifyContent": undefined,
+        }
+      }
+    >
+      <Button
+        round={true}
+      >
+        <button
+          className="msg button round"
+          onMouseDown={[Function]}
+          style={
+            Object {
+              "flexDirection": undefined,
+            }
+          }
+          tabIndex={0}
+        >
+          M
+        </button>
+      </Button>
+      <Button
+        round={true}
+      >
+        <button
+          className="msg button round"
+          onMouseDown={[Function]}
+          style={
+            Object {
+              "flexDirection": undefined,
+            }
+          }
+          tabIndex={0}
+        >
+          <Image
+            disabled={false}
+            src="close.svg"
+          >
+            <img
+              className="msg image"
+              src="close.svg"
+            />
+          </Image>
+        </button>
+      </Button>
+    </div>
+  </Container>
+</div>
+`;

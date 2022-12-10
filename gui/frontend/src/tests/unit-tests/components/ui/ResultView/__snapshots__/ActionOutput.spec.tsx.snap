@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Action Output Tests Action Full Rendering 1`] = `
+<ActionOutput
+  executionInfo={
+    Object {
+      "text": "An error occurred",
+      "type": 0,
+    }
+  }
+  id="actionOutput1"
+  language="ansi"
+  text="Lorem ipsum dolor sit amet"
+>
+  <Container
+    className="msg resultText"
+    orientation="column"
+  >
+    <div
+      className="msg container fixedScrollbar resultText"
+      style={
+        Object {
+          "alignItems": undefined,
+          "flexDirection": "column",
+          "flexWrap": undefined,
+          "justifyContent": undefined,
+        }
+      }
+    >
+      <Label
+        caption="Lorem ipsum dolor sit amet"
+        data-lang="ansi"
+        data-tooltip=""
+        innerRef={
+          Object {
+            "current": Object {},
+          }
+        }
+      >
+        <label
+          className="msg label"
+          data-lang="ansi"
+          data-tooltip=""
+          style={
+            Object {
+              "textAlign": undefined,
+            }
+          }
+        >
+          Lorem ipsum dolor sit amet
+        </label>
+      </Label>
+      <ResultStatus
+        executionInfo={
+          Object {
+            "text": "An error occurred",
+            "type": 0,
+          }
+        }
+      >
+        <Container
+          className="msg resultStatus containsMessage"
+          orientation="row"
+        >
+          <div
+            className="msg container fixedScrollbar resultStatus containsMessage"
+            style={
+              Object {
+                "alignItems": undefined,
+                "flexDirection": "row",
+                "flexWrap": undefined,
+                "justifyContent": undefined,
+              }
+            }
+          >
+            <Message
+              type={0}
+            >
+              <div
+                className="msg message error"
+              >
+                An error occurred
+              </div>
+            </Message>
+          </div>
+        </Container>
+      </ResultStatus>
+    </div>
+  </Container>
+</ActionOutput>
+`;
+
+exports[`Action Output Tests Action Full Rendering 2`] = `
+HTMLCollection [
+  <label
+    __self="[object Object]"
+    __source="[object Object]"
+    class="msg label Auto"
+    data-lang="json"
+    data-tooltip=""
+  >
+    <span>
+      <span
+        class="mtk1"
+      >
+        { key: 'value' }
+      </span>
+    </span>
+    <br />
+  </label>,
+]
+`;
+
+exports[`Action Output Tests Standard Rendering 1`] = `
+<ActionOutput
+  text=""
+>
+  <Container
+    className="msg resultText"
+    orientation="column"
+  >
+    <div
+      className="msg container fixedScrollbar resultText"
+      style={
+        Object {
+          "alignItems": undefined,
+          "flexDirection": "column",
+          "flexWrap": undefined,
+          "justifyContent": undefined,
+        }
+      }
+    >
+      <Label
+        caption=""
+        data-tooltip=""
+        innerRef={
+          Object {
+            "current": Object {},
+          }
+        }
+      >
+        <label
+          className="msg label"
+          data-tooltip=""
+          style={
+            Object {
+              "textAlign": undefined,
+            }
+          }
+        />
+      </Label>
+    </div>
+  </Container>
+</ActionOutput>
+`;

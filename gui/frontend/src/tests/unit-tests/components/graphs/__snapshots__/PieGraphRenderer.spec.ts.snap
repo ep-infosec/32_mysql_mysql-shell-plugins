@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PieGraphRenderer Tests Base Rendering 1`] = `<svg />`;
+
+exports[`PieGraphRenderer Tests With Data and Updates 1`] = `
+<svg>
+  <svg
+    id="graph2"
+    overflow="visible"
+    viewBox="0 0 1200 900"
+    x="50%"
+    y="50%"
+  >
+    <g>
+      <g
+        class="slices"
+      >
+        <path
+          class="slice"
+          d="M2.7554552980815446e-14,-450A450,450,0,0,1,389.71143170299734,-225L0,0Z"
+        />
+        <path
+          class="slice"
+          d="M389.71143170299734,-225A450,450,0,0,1,2.7554552980815446e-14,450L0,0Z"
+        />
+        <path
+          class="slice"
+          d="M2.7554552980815446e-14,450A450,450,0,1,1,-8.266365894244634e-14,-450L0,0Z"
+        />
+      </g>
+      <g
+        class="labels"
+      >
+        <text
+          dy=".35em"
+          fill="currentColor"
+          text-anchor="start"
+          transform="translate(480,-438.4253606658721)"
+        >
+          1.00
+        </text>
+        <text
+          dy=".35em"
+          fill="currentColor"
+          text-anchor="start"
+          transform="translate(480,253.12499999999991)"
+        >
+          2.00
+        </text>
+        <text
+          dy=".35em"
+          fill="currentColor"
+          text-anchor="end"
+          transform="translate(-480,6.199774420683475e-14)"
+        >
+          3.00
+        </text>
+      </g>
+      <g
+        class="lines"
+      >
+        <polyline
+          points="112.49999999999997,-194.8557158514987,253.12499999999994,-438.4253606658721,456,-438.4253606658721"
+        />
+        <polyline
+          points="194.8557158514987,112.49999999999996,438.4253606658721,253.12499999999991,456,253.12499999999991"
+        />
+        <polyline
+          points="-225,2.7554552980815446e-14,-506.25,6.199774420683475e-14,-456,6.199774420683475e-14"
+        />
+      </g>
+    </g>
+  </svg>
+</svg>
+`;
+
+exports[`PieGraphRenderer Tests With Data and Updates 2`] = `
+<svg>
+  <svg
+    id="graph2"
+    overflow="visible"
+    viewBox="0 0 1200 900"
+    x="50%"
+    y="50%"
+  >
+    <g>
+      <g
+        class="slices"
+      >
+        <path
+          class="slice"
+          d="M2.7554552980815446e-14,-450A450,450,0,0,1,389.71143170299734,-225L0,0Z"
+          style="fill: white;"
+        />
+        <path
+          class="slice"
+          d="M389.71143170299734,-225A450,450,0,0,1,2.7554552980815446e-14,450L0,0Z"
+          style="fill: silver;"
+        />
+        <path
+          class="slice"
+          d="M2.7554552980815446e-14,450A450,450,0,1,1,-8.266365894244634e-14,-450L0,0Z"
+          style="fill: gray;"
+        />
+      </g>
+      <g
+        class="labels"
+      >
+        <text
+          dy=".35em"
+          fill="currentColor"
+          text-anchor="start"
+          transform="translate(480,-438.4253606658721)"
+        >
+          1.00
+        </text>
+        <text
+          dy=".35em"
+          fill="currentColor"
+          text-anchor="start"
+          transform="translate(330,168.74999999999994)"
+        >
+          2.00
+        </text>
+        <text
+          dy=".35em"
+          fill="currentColor"
+          text-anchor="end"
+          transform="translate(-330,4.133182947122317e-14)"
+        >
+          3.00
+        </text>
+      </g>
+      <g
+        class="lines"
+      >
+        <polyline
+          points="112.49999999999997,-194.8557158514987,253.12499999999994,-438.4253606658721,456,-438.4253606658721"
+        />
+        <polyline
+          points="155,0,292.2835737772481,168.74999999999994,313.5,168.74999999999994"
+        />
+        <polyline
+          points="155,0,-337.5,4.133182947122317e-14,-313.5,4.133182947122317e-14"
+        />
+      </g>
+    </g>
+  </svg>
+</svg>
+`;

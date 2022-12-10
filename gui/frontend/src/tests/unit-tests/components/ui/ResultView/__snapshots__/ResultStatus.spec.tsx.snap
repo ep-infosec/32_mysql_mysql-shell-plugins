@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Result Status Tests Default Rendering 1`] = `
+<ResultStatus
+  executionInfo={
+    Object {
+      "text": "Lorem ipsum",
+      "type": 2,
+    }
+  }
+>
+  <Container
+    className="msg resultStatus containsMessage"
+    orientation="row"
+  >
+    <div
+      className="msg container fixedScrollbar resultStatus containsMessage"
+      style={
+        Object {
+          "alignItems": undefined,
+          "flexDirection": "row",
+          "flexWrap": undefined,
+          "justifyContent": undefined,
+        }
+      }
+    >
+      <Message
+        type={2}
+      >
+        <div
+          className="msg message info"
+        >
+          Lorem ipsum
+        </div>
+      </Message>
+    </div>
+  </Container>
+</ResultStatus>
+`;

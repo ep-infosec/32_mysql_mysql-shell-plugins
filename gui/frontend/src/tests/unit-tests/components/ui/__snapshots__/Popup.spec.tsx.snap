@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Popup component tests Test Popup output (Snapshot) 1`] = `
+<Popup
+  onClose={[MockFunction]}
+  onOpen={[MockFunction]}
+  orientation="column"
+  pinned={false}
+  placement="top-start"
+  showArrow={false}
+>
+  <Portal
+    onClose={[Function]}
+    onOpen={[Function]}
+  />
+</Popup>
+`;

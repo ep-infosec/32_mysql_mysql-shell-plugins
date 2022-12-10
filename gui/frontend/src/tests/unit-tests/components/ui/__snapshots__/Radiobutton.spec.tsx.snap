@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Radiobutton component tests Test Radiobutton output (snapshot) 1`] = `
+<Radiobutton
+  caption="Radiobutton"
+  checkState={1}
+  disabled={true}
+  id="rb4"
+  name="rbx"
+>
+  <label
+    className="msg radioButton disabled"
+    htmlFor="rb4"
+    id="rb4"
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    tabIndex={0}
+  >
+    <input
+      name="rbx"
+      readOnly={true}
+      tabIndex={-1}
+      type="radio"
+    />
+    <span
+      className="checkMark"
+    />
+    Disabled radio button
+  </label>
+</Radiobutton>
+`;

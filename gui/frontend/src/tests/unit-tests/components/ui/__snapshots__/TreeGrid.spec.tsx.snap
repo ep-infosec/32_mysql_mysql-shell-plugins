@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TreeGrid tests TreeGrid snapshot 1`] = `
+<TreeGrid
+  columns={Array []}
+  tableData={Array []}
+>
+  <div
+    className="msg treeGrid"
+  />
+</TreeGrid>
+`;

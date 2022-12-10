@@ -1,0 +1,13 @@
+.vscode/**
+.vscode-test/**
+output/test/**
+src/**
+**/*.map
+.gitignore
+.eslintrc.json
+tsconfig.json
+**/.antlr
+packaging/**
+images/screenshots/**
+tests/e2e/output/**
+tests/e2e/test-resources/**

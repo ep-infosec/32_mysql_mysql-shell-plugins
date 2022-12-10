@@ -1,0 +1,1067 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Result Tabview Tests Rendering Only Output 1`] = `
+<ResultTabView
+  resultSets={
+    Object {
+      "output": Array [
+        Object {
+          "content": "Message 1",
+          "type": 0,
+        },
+        Object {
+          "content": "Message 2",
+          "type": 4,
+        },
+      ],
+      "sets": Array [],
+      "type": "resultSets",
+    }
+  }
+>
+  <Container
+    className="msg resultHost"
+    orientation="column"
+  >
+    <div
+      className="msg container fixedScrollbar resultHost"
+      style={
+        Object {
+          "alignItems": undefined,
+          "flexDirection": "column",
+          "flexWrap": undefined,
+          "justifyContent": undefined,
+        }
+      }
+    >
+      <Tabview
+        className="resultTabview"
+        hideSingleTab={true}
+        onSelectTab={[Function]}
+        pages={
+          Array [
+            Object {
+              "caption": "Output",
+              "content": <Container
+                className="outputHost"
+                orientation="column"
+              >
+                <Container
+                  className="labelHost"
+                  orientation="row"
+                >
+                  <Label
+                    caption="Message 1"
+                    type={0}
+                  />
+                </Container>
+                <Container
+                  className="labelHost"
+                  orientation="row"
+                >
+                  <Label
+                    caption="Message 2"
+                    type={4}
+                  />
+                </Container>
+              </Container>,
+              "id": "output",
+            },
+          ]
+        }
+        selectedId="output"
+        showTabs={true}
+        stretchTabs={false}
+        tabPosition="top"
+      >
+        <Container
+          className="msg tabview top resultTabview"
+          orientation="column"
+          style={
+            Object {
+              "--content-separator-width": "0px",
+              "--tabItem-border-width": "0px",
+            }
+          }
+        >
+          <div
+            className="msg container fixedScrollbar tabview top resultTabview"
+            style={
+              Object {
+                "--content-separator-width": "0px",
+                "--tabItem-border-width": "0px",
+                "alignItems": undefined,
+                "flexDirection": "column",
+                "flexWrap": undefined,
+                "justifyContent": undefined,
+              }
+            }
+          >
+            <Container
+              className="content"
+              innerRef={
+                Object {
+                  "current": Object {
+                    "l": Object {
+                      "dragenterfalse": [Function],
+                      "dragleavefalse": [Function],
+                      "dragoverfalse": [Function],
+                      "dropfalse": [Function],
+                    },
+                  },
+                }
+              }
+              onDragEnter={[Function]}
+              onDragLeave={[Function]}
+              onDragOver={[Function]}
+              onDrop={[Function]}
+              orientation="column"
+            >
+              <div
+                className="msg container fixedScrollbar content"
+                onDragEnter={[Function]}
+                onDragLeave={[Function]}
+                onDragOver={[Function]}
+                onDrop={[Function]}
+                style={
+                  Object {
+                    "alignItems": undefined,
+                    "flexDirection": "column",
+                    "flexWrap": undefined,
+                    "justifyContent": undefined,
+                  }
+                }
+              >
+                <Container
+                  className="outputHost"
+                  orientation="column"
+                >
+                  <div
+                    className="msg container fixedScrollbar outputHost"
+                    style={
+                      Object {
+                        "alignItems": undefined,
+                        "flexDirection": "column",
+                        "flexWrap": undefined,
+                        "justifyContent": undefined,
+                      }
+                    }
+                  >
+                    <Container
+                      className="labelHost"
+                      orientation="row"
+                    >
+                      <div
+                        className="msg container fixedScrollbar labelHost"
+                        style={
+                          Object {
+                            "alignItems": undefined,
+                            "flexDirection": "row",
+                            "flexWrap": undefined,
+                            "justifyContent": undefined,
+                          }
+                        }
+                      >
+                        <Label
+                          caption="Message 1"
+                          key="text0"
+                          type={0}
+                        >
+                          <label
+                            className="msg label"
+                            data-tooltip="expand"
+                            style={
+                              Object {
+                                "textAlign": undefined,
+                              }
+                            }
+                            type={0}
+                          >
+                            Message 1
+                          </label>
+                        </Label>
+                      </div>
+                    </Container>
+                    <Container
+                      className="labelHost"
+                      orientation="row"
+                    >
+                      <div
+                        className="msg container fixedScrollbar labelHost"
+                        style={
+                          Object {
+                            "alignItems": undefined,
+                            "flexDirection": "row",
+                            "flexWrap": undefined,
+                            "justifyContent": undefined,
+                          }
+                        }
+                      >
+                        <Label
+                          caption="Message 2"
+                          key="text1"
+                          type={4}
+                        >
+                          <label
+                            className="msg label"
+                            data-tooltip="expand"
+                            style={
+                              Object {
+                                "textAlign": undefined,
+                              }
+                            }
+                            type={4}
+                          >
+                            Message 2
+                          </label>
+                        </Label>
+                      </div>
+                    </Container>
+                  </div>
+                </Container>
+              </div>
+            </Container>
+          </div>
+        </Container>
+      </Tabview>
+      <Menu
+        id="actionMenu"
+        onItemClick={[Function]}
+        orientation="column"
+        placement="bottom-start"
+      >
+        <Popup
+          className="msg menu"
+          id="actionMenu"
+          onClose={[Function]}
+          onKeyDown={[Function]}
+          onOpen={[Function]}
+          orientation="column"
+          pinned={false}
+          placement="bottom-start"
+          showArrow={false}
+        >
+          <Portal
+            id="actionMenu"
+            onClose={[Function]}
+            onKeyDown={[Function]}
+            onOpen={[Function]}
+          />
+        </Popup>
+      </Menu>
+    </div>
+  </Container>
+</ResultTabView>
+`;
+
+exports[`Result Tabview Tests Standard Rendering 1`] = `
+<ResultTabView
+  resultSets={
+    Object {
+      "sets": Array [],
+      "type": "resultSets",
+    }
+  }
+>
+  <Container
+    className="msg resultHost"
+    orientation="column"
+  >
+    <div
+      className="msg container fixedScrollbar resultHost"
+      style={
+        Object {
+          "alignItems": undefined,
+          "flexDirection": "column",
+          "flexWrap": undefined,
+          "justifyContent": undefined,
+        }
+      }
+    >
+      <Tabview
+        className="resultTabview"
+        hideSingleTab={true}
+        onSelectTab={[Function]}
+        pages={Array []}
+        selectedId="output"
+        showTabs={true}
+        stretchTabs={false}
+        tabPosition="top"
+      >
+        <Container
+          className="msg tabview top resultTabview"
+          orientation="column"
+          style={
+            Object {
+              "--content-separator-width": "0px",
+              "--tabItem-border-width": "0px",
+            }
+          }
+        >
+          <div
+            className="msg container fixedScrollbar tabview top resultTabview"
+            style={
+              Object {
+                "--content-separator-width": "0px",
+                "--tabItem-border-width": "0px",
+                "alignItems": undefined,
+                "flexDirection": "column",
+                "flexWrap": undefined,
+                "justifyContent": undefined,
+              }
+            }
+          >
+            <Container
+              className="content"
+              innerRef={
+                Object {
+                  "current": Object {
+                    "l": Object {
+                      "dragenterfalse": [Function],
+                      "dragleavefalse": [Function],
+                      "dragoverfalse": [Function],
+                      "dropfalse": [Function],
+                    },
+                  },
+                }
+              }
+              onDragEnter={[Function]}
+              onDragLeave={[Function]}
+              onDragOver={[Function]}
+              onDrop={[Function]}
+              orientation="column"
+            >
+              <div
+                className="msg container fixedScrollbar content"
+                onDragEnter={[Function]}
+                onDragLeave={[Function]}
+                onDragOver={[Function]}
+                onDrop={[Function]}
+                style={
+                  Object {
+                    "alignItems": undefined,
+                    "flexDirection": "column",
+                    "flexWrap": undefined,
+                    "justifyContent": undefined,
+                  }
+                }
+              />
+            </Container>
+          </div>
+        </Container>
+      </Tabview>
+      <Menu
+        id="actionMenu"
+        onItemClick={[Function]}
+        orientation="column"
+        placement="bottom-start"
+      >
+        <Popup
+          className="msg menu"
+          id="actionMenu"
+          onClose={[Function]}
+          onKeyDown={[Function]}
+          onOpen={[Function]}
+          orientation="column"
+          pinned={false}
+          placement="bottom-start"
+          showArrow={false}
+        >
+          <Portal
+            id="actionMenu"
+            onClose={[Function]}
+            onKeyDown={[Function]}
+            onOpen={[Function]}
+          />
+        </Popup>
+      </Menu>
+    </div>
+  </Container>
+</ResultTabView>
+`;
+
+exports[`Result Tabview Tests Tabview With Result Sets 1`] = `
+<ResultTabView
+  resultSets={
+    Object {
+      "output": Array [
+        Object {
+          "content": "Lorem ipsum dolor sit amet",
+          "language": "ini",
+          "type": 2,
+        },
+      ],
+      "sets": Array [
+        Object {
+          "data": Object {
+            "columns": Array [],
+            "currentPage": 0,
+            "executionInfo": Object {
+              "text": "All fine",
+              "type": 4,
+            },
+            "requestId": "123",
+            "rows": Array [],
+          },
+          "head": Object {
+            "requestId": "123",
+            "sql": "select 1",
+          },
+        },
+        Object {
+          "data": Object {
+            "columns": Array [],
+            "currentPage": 10,
+            "requestId": "456",
+            "rows": Array [],
+          },
+          "head": Object {
+            "requestId": "456",
+            "sql": "select 2",
+          },
+        },
+      ],
+      "type": "resultSets",
+    }
+  }
+>
+  <Container
+    className="msg resultHost"
+    orientation="column"
+  >
+    <div
+      className="msg container fixedScrollbar resultHost"
+      style={
+        Object {
+          "alignItems": undefined,
+          "flexDirection": "column",
+          "flexWrap": undefined,
+          "justifyContent": undefined,
+        }
+      }
+    >
+      <Tabview
+        className="resultTabview"
+        hideSingleTab={true}
+        onSelectTab={[Function]}
+        pages={
+          Array [
+            Object {
+              "caption": "Output",
+              "content": <Container
+                className="outputHost"
+                orientation="column"
+              >
+                <Container
+                  className="labelHost"
+                  orientation="row"
+                >
+                  <Label
+                    caption="Lorem ipsum dolor sit amet"
+                    language="ini"
+                    type={2}
+                  />
+                </Container>
+              </Container>,
+              "id": "output",
+            },
+            Object {
+              "caption": "Result #1",
+              "content": <ResultView
+                onEdit={[Function]}
+                resultSet={
+                  Object {
+                    "data": Object {
+                      "columns": Array [],
+                      "currentPage": 0,
+                      "executionInfo": Object {
+                        "text": "All fine",
+                        "type": 4,
+                      },
+                      "requestId": "123",
+                      "rows": Array [],
+                    },
+                    "head": Object {
+                      "requestId": "123",
+                      "sql": "select 1",
+                    },
+                  }
+                }
+              />,
+              "id": "123",
+            },
+            Object {
+              "caption": "Result #2",
+              "content": <ResultView
+                onEdit={[Function]}
+                resultSet={
+                  Object {
+                    "data": Object {
+                      "columns": Array [],
+                      "currentPage": 10,
+                      "requestId": "456",
+                      "rows": Array [],
+                    },
+                    "head": Object {
+                      "requestId": "456",
+                      "sql": "select 2",
+                    },
+                  }
+                }
+              />,
+              "id": "456",
+            },
+          ]
+        }
+        selectedId="123"
+        showTabs={true}
+        stretchTabs={false}
+        tabPosition="top"
+      >
+        <Container
+          className="msg tabview top resultTabview"
+          orientation="column"
+          style={
+            Object {
+              "--content-separator-width": "0px",
+              "--tabItem-border-width": "0px",
+            }
+          }
+        >
+          <div
+            className="msg container fixedScrollbar tabview top resultTabview"
+            style={
+              Object {
+                "--content-separator-width": "0px",
+                "--tabItem-border-width": "0px",
+                "alignItems": undefined,
+                "flexDirection": "column",
+                "flexWrap": undefined,
+                "justifyContent": undefined,
+              }
+            }
+          >
+            <Selector
+              activeItemId="123"
+              className="tabArea"
+              entryOrientation="row"
+              items={
+                Array [
+                  Object {
+                    "auxillary": undefined,
+                    "canReorder": undefined,
+                    "caption": "Output",
+                    "icon": undefined,
+                    "id": "output",
+                    "tooltip": undefined,
+                  },
+                  Object {
+                    "auxillary": undefined,
+                    "canReorder": undefined,
+                    "caption": "Result #1",
+                    "icon": undefined,
+                    "id": "123",
+                    "tooltip": undefined,
+                  },
+                  Object {
+                    "auxillary": undefined,
+                    "canReorder": undefined,
+                    "caption": "Result #2",
+                    "icon": undefined,
+                    "id": "456",
+                    "tooltip": undefined,
+                  },
+                ]
+              }
+              onDrop={[Function]}
+              onSelect={[Function]}
+              orientation="row"
+              smoothScroll={false}
+              wrapNavigation={false}
+            >
+              <Container
+                className="msg selector horizontal tabArea"
+                innerRef={
+                  Object {
+                    "current": Object {
+                      "l": Object {
+                        "dragenterfalse": [Function],
+                        "dragleavefalse": [Function],
+                        "dragoverfalse": [Function],
+                        "dragstartfalse": [Function],
+                        "dropfalse": [Function],
+                      },
+                    },
+                  }
+                }
+                onDragEnter={[Function]}
+                onDragLeave={[Function]}
+                onDragOver={[Function]}
+                onDragStart={[Function]}
+                onDrop={[Function]}
+                onResize={[Function]}
+                orientation="row"
+              >
+                <div
+                  className="msg container fixedScrollbar selector horizontal tabArea"
+                  onDragEnter={[Function]}
+                  onDragLeave={[Function]}
+                  onDragOver={[Function]}
+                  onDragStart={[Function]}
+                  onDrop={[Function]}
+                  style={
+                    Object {
+                      "alignItems": undefined,
+                      "flexDirection": "row",
+                      "flexWrap": undefined,
+                      "justifyContent": undefined,
+                    }
+                  }
+                >
+                  <SelectorItem
+                    disabled={false}
+                    id="selectorItemstepDown"
+                    innerRef={
+                      Object {
+                        "current": Object {
+                          "l": Object {
+                            "clickfalse": [Function],
+                          },
+                        },
+                      }
+                    }
+                    onClick={[Function]}
+                    orientation="row"
+                    type="stepDown"
+                  >
+                    <Container
+                      className="msg selectorItem stepDown"
+                      crossAlignment="center"
+                      id="selectorItemstepDown"
+                      innerRef={
+                        Object {
+                          "current": Object {
+                            "l": Object {
+                              "clickfalse": [Function],
+                            },
+                          },
+                        }
+                      }
+                      mainAlignment="center"
+                      onClick={[Function]}
+                      orientation="row"
+                    >
+                      <div
+                        className="msg container fixedScrollbar selectorItem stepDown"
+                        id="selectorItemstepDown"
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                            "flexWrap": undefined,
+                            "justifyContent": "center",
+                          }
+                        }
+                      />
+                    </Container>
+                  </SelectorItem>
+                  <SelectorItem
+                    caption="Output"
+                    disabled={false}
+                    id="output"
+                    key="output"
+                    onClick={[Function]}
+                    onDrop={[Function]}
+                    orientation="row"
+                    selected={false}
+                    type="normal"
+                  >
+                    <Container
+                      className="msg selectorItem normal"
+                      crossAlignment="center"
+                      id="output"
+                      mainAlignment="center"
+                      onClick={[Function]}
+                      onDrop={[Function]}
+                      orientation="row"
+                    >
+                      <div
+                        className="msg container fixedScrollbar selectorItem normal"
+                        id="output"
+                        onClick={[Function]}
+                        onDrop={[Function]}
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                            "flexWrap": undefined,
+                            "justifyContent": "center",
+                          }
+                        }
+                      >
+                        <Label
+                          data-tooltip="inherit"
+                        >
+                          <label
+                            className="msg label"
+                            data-tooltip="inherit"
+                            style={
+                              Object {
+                                "textAlign": undefined,
+                              }
+                            }
+                          >
+                            Output
+                          </label>
+                        </Label>
+                      </div>
+                    </Container>
+                  </SelectorItem>
+                  <SelectorItem
+                    caption="Result #1"
+                    disabled={false}
+                    id="123"
+                    innerRef={
+                      Object {
+                        "current": Object {
+                          "l": Object {
+                            "clickfalse": [Function],
+                            "dropfalse": [Function],
+                          },
+                        },
+                      }
+                    }
+                    key="123"
+                    onClick={[Function]}
+                    onDrop={[Function]}
+                    orientation="row"
+                    selected={true}
+                    type="normal"
+                  >
+                    <Container
+                      className="msg selectorItem selected normal"
+                      crossAlignment="center"
+                      id="123"
+                      innerRef={
+                        Object {
+                          "current": Object {
+                            "l": Object {
+                              "clickfalse": [Function],
+                              "dropfalse": [Function],
+                            },
+                          },
+                        }
+                      }
+                      mainAlignment="center"
+                      onClick={[Function]}
+                      onDrop={[Function]}
+                      orientation="row"
+                    >
+                      <div
+                        className="msg container fixedScrollbar selectorItem selected normal"
+                        id="123"
+                        onClick={[Function]}
+                        onDrop={[Function]}
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                            "flexWrap": undefined,
+                            "justifyContent": "center",
+                          }
+                        }
+                      >
+                        <Label
+                          data-tooltip="inherit"
+                        >
+                          <label
+                            className="msg label"
+                            data-tooltip="inherit"
+                            style={
+                              Object {
+                                "textAlign": undefined,
+                              }
+                            }
+                          >
+                            Result #1
+                          </label>
+                        </Label>
+                      </div>
+                    </Container>
+                  </SelectorItem>
+                  <SelectorItem
+                    caption="Result #2"
+                    disabled={false}
+                    id="456"
+                    key="456"
+                    onClick={[Function]}
+                    onDrop={[Function]}
+                    orientation="row"
+                    selected={false}
+                    type="normal"
+                  >
+                    <Container
+                      className="msg selectorItem normal"
+                      crossAlignment="center"
+                      id="456"
+                      mainAlignment="center"
+                      onClick={[Function]}
+                      onDrop={[Function]}
+                      orientation="row"
+                    >
+                      <div
+                        className="msg container fixedScrollbar selectorItem normal"
+                        id="456"
+                        onClick={[Function]}
+                        onDrop={[Function]}
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                            "flexWrap": undefined,
+                            "justifyContent": "center",
+                          }
+                        }
+                      >
+                        <Label
+                          data-tooltip="inherit"
+                        >
+                          <label
+                            className="msg label"
+                            data-tooltip="inherit"
+                            style={
+                              Object {
+                                "textAlign": undefined,
+                              }
+                            }
+                          >
+                            Result #2
+                          </label>
+                        </Label>
+                      </div>
+                    </Container>
+                  </SelectorItem>
+                  <SelectorItem
+                    disabled={false}
+                    id="selectorItemstepUp"
+                    innerRef={
+                      Object {
+                        "current": Object {
+                          "l": Object {
+                            "clickfalse": [Function],
+                          },
+                        },
+                      }
+                    }
+                    onClick={[Function]}
+                    orientation="row"
+                    type="stepUp"
+                  >
+                    <Container
+                      className="msg selectorItem stepUp"
+                      crossAlignment="center"
+                      id="selectorItemstepUp"
+                      innerRef={
+                        Object {
+                          "current": Object {
+                            "l": Object {
+                              "clickfalse": [Function],
+                            },
+                          },
+                        }
+                      }
+                      mainAlignment="center"
+                      onClick={[Function]}
+                      orientation="row"
+                    >
+                      <div
+                        className="msg container fixedScrollbar selectorItem stepUp"
+                        id="selectorItemstepUp"
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                            "flexWrap": undefined,
+                            "justifyContent": "center",
+                          }
+                        }
+                      />
+                    </Container>
+                  </SelectorItem>
+                </div>
+              </Container>
+            </Selector>
+            <Container
+              className="content"
+              innerRef={
+                Object {
+                  "current": Object {
+                    "l": Object {
+                      "dragenterfalse": [Function],
+                      "dragleavefalse": [Function],
+                      "dragoverfalse": [Function],
+                      "dropfalse": [Function],
+                    },
+                  },
+                }
+              }
+              onDragEnter={[Function]}
+              onDragLeave={[Function]}
+              onDragOver={[Function]}
+              onDrop={[Function]}
+              orientation="column"
+            >
+              <div
+                className="msg container fixedScrollbar content"
+                onDragEnter={[Function]}
+                onDragLeave={[Function]}
+                onDragOver={[Function]}
+                onDrop={[Function]}
+                style={
+                  Object {
+                    "alignItems": undefined,
+                    "flexDirection": "column",
+                    "flexWrap": undefined,
+                    "justifyContent": undefined,
+                  }
+                }
+              >
+                <ResultView
+                  onEdit={[Function]}
+                  resultSet={
+                    Object {
+                      "data": Object {
+                        "columns": Array [],
+                        "currentPage": 0,
+                        "executionInfo": Object {
+                          "text": "All fine",
+                          "type": 4,
+                        },
+                        "requestId": "123",
+                        "rows": Array [],
+                      },
+                      "head": Object {
+                        "requestId": "123",
+                        "sql": "select 1",
+                      },
+                    }
+                  }
+                >
+                  <Container
+                    className="msg resultView"
+                    orientation="column"
+                  >
+                    <div
+                      className="msg container fixedScrollbar resultView"
+                      style={
+                        Object {
+                          "alignItems": undefined,
+                          "flexDirection": "column",
+                          "flexWrap": undefined,
+                          "justifyContent": undefined,
+                        }
+                      }
+                    >
+                      <Menu
+                        id="cellContextMenu"
+                        onItemClick={[Function]}
+                        orientation="column"
+                        placement="bottom-start"
+                      >
+                        <Popup
+                          className="msg menu"
+                          id="cellContextMenu"
+                          onClose={[Function]}
+                          onKeyDown={[Function]}
+                          onOpen={[Function]}
+                          orientation="column"
+                          pinned={false}
+                          placement="bottom-start"
+                          showArrow={false}
+                        >
+                          <Portal
+                            id="cellContextMenu"
+                            onClose={[Function]}
+                            onKeyDown={[Function]}
+                            onOpen={[Function]}
+                          />
+                        </Popup>
+                      </Menu>
+                    </div>
+                  </Container>
+                </ResultView>
+              </div>
+            </Container>
+          </div>
+        </Container>
+      </Tabview>
+      <ResultStatus
+        executionInfo={
+          Object {
+            "text": "All fine",
+            "type": 4,
+          }
+        }
+      >
+        <Container
+          className="msg resultStatus"
+          orientation="row"
+        >
+          <div
+            className="msg container fixedScrollbar resultStatus"
+            style={
+              Object {
+                "alignItems": undefined,
+                "flexDirection": "row",
+                "flexWrap": undefined,
+                "justifyContent": undefined,
+              }
+            }
+          >
+            <Label>
+              <label
+                className="msg label"
+                data-tooltip="expand"
+                style={
+                  Object {
+                    "textAlign": undefined,
+                  }
+                }
+              >
+                All fine
+              </label>
+            </Label>
+          </div>
+        </Container>
+      </ResultStatus>
+      <Menu
+        id="actionMenu"
+        onItemClick={[Function]}
+        orientation="column"
+        placement="bottom-start"
+      >
+        <Popup
+          className="msg menu"
+          id="actionMenu"
+          onClose={[Function]}
+          onKeyDown={[Function]}
+          onOpen={[Function]}
+          orientation="column"
+          pinned={false}
+          placement="bottom-start"
+          showArrow={false}
+        >
+          <Portal
+            id="actionMenu"
+            onClose={[Function]}
+            onKeyDown={[Function]}
+            onOpen={[Function]}
+          />
+        </Popup>
+      </Menu>
+    </div>
+  </Container>
+</ResultTabView>
+`;

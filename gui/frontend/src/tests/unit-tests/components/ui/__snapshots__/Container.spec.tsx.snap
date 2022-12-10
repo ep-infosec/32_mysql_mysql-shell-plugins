@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container component tests Test Container output (snapshot) 1`] = `
+<Container
+  className="demoContainer"
+  orientation="row"
+>
+  <div
+    className="msg container fixedScrollbar demoContainer"
+    style={
+      Object {
+        "alignItems": undefined,
+        "flexDirection": "row",
+        "flexWrap": undefined,
+        "justifyContent": undefined,
+      }
+    }
+  >
+    <Container
+      orientation="column"
+      style={
+        Object {
+          "margin": "20px",
+        }
+      }
+    >
+      <div
+        className="msg container fixedScrollbar"
+        style={
+          Object {
+            "alignItems": undefined,
+            "flexDirection": "column",
+            "flexWrap": undefined,
+            "justifyContent": undefined,
+            "margin": "20px",
+          }
+        }
+      >
+        <Icon
+          disabled={false}
+          src="connections.svg"
+        >
+          <div
+            className="msg icon"
+            style={
+              Object {
+                "WebkitMaskImage": "url(connections.svg)",
+                "backgroundColor": undefined,
+                "height": undefined,
+                "maskImage": "url(connections.svg)",
+                "width": undefined,
+              }
+            }
+          />
+        </Icon>
+        <Icon
+          disabled={false}
+          src="connections.svg"
+        >
+          <div
+            className="msg icon"
+            style={
+              Object {
+                "WebkitMaskImage": "url(connections.svg)",
+                "backgroundColor": undefined,
+                "height": undefined,
+                "maskImage": "url(connections.svg)",
+                "width": undefined,
+              }
+            }
+          />
+        </Icon>
+        <Icon
+          disabled={false}
+          src="connections.svg"
+        >
+          <div
+            className="msg icon"
+            style={
+              Object {
+                "WebkitMaskImage": "url(connections.svg)",
+                "backgroundColor": undefined,
+                "height": undefined,
+                "maskImage": "url(connections.svg)",
+                "width": undefined,
+              }
+            }
+          />
+        </Icon>
+        <Icon
+          disabled={false}
+          src="connections.svg"
+        >
+          <div
+            className="msg icon"
+            style={
+              Object {
+                "WebkitMaskImage": "url(connections.svg)",
+                "backgroundColor": undefined,
+                "height": undefined,
+                "maskImage": "url(connections.svg)",
+                "width": undefined,
+              }
+            }
+          />
+        </Icon>
+        <Icon
+          disabled={false}
+          src="connections.svg"
+        >
+          <div
+            className="msg icon"
+            style={
+              Object {
+                "WebkitMaskImage": "url(connections.svg)",
+                "backgroundColor": undefined,
+                "height": undefined,
+                "maskImage": "url(connections.svg)",
+                "width": undefined,
+              }
+            }
+          />
+        </Icon>
+        <Icon
+          disabled={false}
+          src="connections.svg"
+        >
+          <div
+            className="msg icon"
+            style={
+              Object {
+                "WebkitMaskImage": "url(connections.svg)",
+                "backgroundColor": undefined,
+                "height": undefined,
+                "maskImage": "url(connections.svg)",
+                "width": undefined,
+              }
+            }
+          />
+        </Icon>
+      </div>
+    </Container>
+    <Container
+      orientation="column-reverse"
+      style={
+        Object {
+          "margin": "20px",
+        }
+      }
+    >
+      <div
+        className="msg container fixedScrollbar"
+        style={
+          Object {
+            "alignItems": undefined,
+            "flexDirection": "column-reverse",
+            "flexWrap": undefined,
+            "justifyContent": undefined,
+            "margin": "20px",
+          }
+        }
+      >
+        <Button
+          round={true}
+        >
+          <button
+            className="msg button round"
+            onMouseDown={[Function]}
+            style={
+              Object {
+                "flexDirection": undefined,
+              }
+            }
+            tabIndex={0}
+          >
+            M
+          </button>
+        </Button>
+        <Button
+          round={true}
+        >
+          <button
+            className="msg button round"
+            onMouseDown={[Function]}
+            style={
+              Object {
+                "flexDirection": undefined,
+              }
+            }
+            tabIndex={0}
+          >
+            M
+          </button>
+        </Button>
+        <Button
+          round={true}
+        >
+          <button
+            className="msg button round"
+            onMouseDown={[Function]}
+            style={
+              Object {
+                "flexDirection": undefined,
+              }
+            }
+            tabIndex={0}
+          >
+            M
+          </button>
+        </Button>
+        <Button
+          round={true}
+        >
+          <button
+            className="msg button round"
+            onMouseDown={[Function]}
+            style={
+              Object {
+                "flexDirection": undefined,
+              }
+            }
+            tabIndex={0}
+          >
+            M
+          </button>
+        </Button>
+        <Button
+          round={true}
+        >
+          <button
+            className="msg button round"
+            onMouseDown={[Function]}
+            style={
+              Object {
+                "flexDirection": undefined,
+              }
+            }
+            tabIndex={0}
+          >
+            M
+          </button>
+        </Button>
+      </div>
+    </Container>
+  </div>
+</Container>
+`;

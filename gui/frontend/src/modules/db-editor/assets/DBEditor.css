@@ -1,0 +1,512 @@
+/*
+ * Copyright (c) 2020, 2022, Oracle and/or its affiliates.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License, version 2.0,
+ * as published by the Free Software Foundation.
+ *
+ * This program is also distributed with certain software (including
+ * but not limited to OpenSSL) that is licensed under separate terms, as
+ * designated in a particular file or component or in included license
+ * documentation.  The authors of MySQL hereby grant you an additional
+ * permission to link the program and your derivative works with the
+ * separately licensed software that they have included with MySQL.
+ * This program is distributed in the hope that it will be useful,  but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See
+ * the GNU General Public License, version 2.0, for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software Foundation, Inc.,
+ * 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+ */
+
+.msg.connectionTabHost {
+    flex: 1 1 auto;
+}
+
+.msg.connectionTabHost .scriptingExplorer {
+    flex: 1 1 auto;
+}
+
+.msg.connectionTabHost .scriptingExplorer .image {
+    width: 16px;
+    height: 16px;
+}
+
+.msg.connectionTabHost .scriptingExplorer .marked {
+    font-weight: 900;
+    border-left: 3px solid var(--sideBar-markerBackground);
+    color: var(--sideBar-markerBackground);
+}
+
+.msg.connectionTabHost .scriptingExplorer .tabulator-tableholder {
+    overflow-x: hidden;
+}
+
+.msg.connectionTabHost .scriptingExplorer .tabulator-row .tabulator-cell {
+    display: flex;
+}
+
+.msg.connectionTabHost .scriptingExplorer .tabulator-row.marked .tabulator-cell:first-child {
+    /* The first cell in a marked row needs a small adjustment to align properly with unmarked rows. */
+    padding-left: 1px;
+}
+
+.msg.connectionTabHost .scriptingExplorer .input {
+    margin-left: 40px;
+}
+
+.msg.connectionTabHost .scriptingExplorer .schemaTreeEntry {
+    display: flex;
+    flex-direction: row;
+    user-select: none;
+    align-items: center;
+    overflow: hidden;
+    height: 24px;
+    align-self: center;
+
+    /* Corresponds to the width of the tree toggle and is used when there are no children and hence no toggle. */
+    padding-left: 21px;
+}
+
+.msg.connectionTabHost .scriptingExplorer .treeToggle + .schemaTreeEntry {
+    padding-left: 0;
+}
+
+.msg.connectionTabHost .scriptingExplorer .schemaTreeEntry > .label {
+    user-select: none;
+}
+
+.msg.connectionTabHost .renderTarget > .resultStatus > .message {
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    flex: 1 1 auto;
+}
+
+.msg.dbModuleTabview .closeButton {
+    margin-left: 4px;
+    width: 16px;
+    height: 16px;
+
+    border: none;
+    background: transparent;
+}
+
+.msg.dbModuleTabview #loadingProgressIndicator {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+}
+
+.msg.dbModuleTabview #progressMessageId {
+    width: 100%;
+    text-align: center;
+    top: calc(50% + 70px);
+    position: relative;
+}
+
+.msg.connectionBrowser #connectionOverviewToolbar,
+.msg.connectionTabHost #dbEditorToolbar,
+.msg.connectionTabHost #serverStatusToolbar,
+.msg.connectionTabHost #clientConnectionToolbar,
+.msg.connectionTabHost #dashboardToolbar {
+    min-height: 0;
+    flex: 0 0 32px;
+    margin: 0;
+    padding: 2px 8px;
+}
+
+.msg.connectionBrowser #connectionOverviewToolbar .image,
+.msg.connectionTabHost #dbEditorToolbar .image,
+.msg.connectionTabHost #serverStatusToolbar .image,
+.msg.connectionTabHost #clientConnectionToolbar .image,
+msg.connectionTabHost #dashboardToolbar .image {
+    width: 20px;
+    height: 20px;
+}
+
+.msg.connectionBrowser .toolbar > .label,
+.msg.connectionTabHost .toolbar > .label {
+    white-space: nowrap;
+}
+
+.msg.connectionBrowser #documentSelector,
+.msg.connectionTabHost #documentSelector {
+    flex: 0 0 200px;
+    margin: 0 3px 0 6px;
+}
+
+.msg#connectionEditor #loadingProgressIndicator {
+    background: none;
+    margin-left: 10px;
+}
+
+.msg#connectionEditor #progressMessageId {
+    color: var(--text-dimmedForeground);
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.msg.connectionBrowser .toolbar .button,
+.msg.connectionTabHost .toolbar .button {
+    flex: 0 0 auto;
+
+    min-width: 0;
+    width: 26px;
+    height: 26px;
+
+    padding: 0;
+    margin: 0;
+}
+
+.msg.connectionBrowser .toolbar .button > .icon,
+.msg.connectionTabHost .toolbar .button > .icon {
+    background-color: var(--titleBar-activeForeground);
+}
+
+.msg.connectionTabHost .editorHost .resultText,
+.msg.connectionTabHost .editorHost .resultText code {
+    font-family: "SourceCodePro+Powerline+Awesome+MySQL", monospace;
+}
+
+.msg.connectionTabHost .zoneHost > .textHost > .label[data-lang] {
+    font-family: "SourceCodePro+Powerline+Awesome+MySQL", monospace;
+}
+
+.msg.connectionTabHost .toolbar .divider {
+    flex: 0 0 2px;
+    margin: 0 10px;
+    background-color: var(--button-border);
+}
+
+/* Definitions for standalone editors. */
+.msg.connectionTabHost .standaloneScriptHost {
+    flex: 1;
+}
+
+.msg.connectionTabHost .resultHost {
+    flex: 1;
+}
+
+.msg.connectionTabHost .resultHost .selectorItem .label {
+    font-size: 0.7rem;
+    font-weight: 300;
+}
+
+.msg.connectionTabHost .standaloneScriptHost .renderTarget {
+    flex: 1;
+    padding: 2px;
+}
+
+.msg.connectionTabHost .standaloneScriptHost .resultHost {
+    border-radius: 0;
+}
+
+.msg.connectionTabHost #itemSaveButton .icon {
+    width: 16px;
+    height: 16px;
+}
+
+.msg.connectionTabHost #itemCloseButton {
+    margin-left: 4px;
+}
+
+.msg.connectionTabHost #itemCloseButton .icon {
+    width: 16px;
+    height: 16px;
+}
+
+/* Definitions for server status. */
+
+.msg#serverStatus #serverDirectories,
+.msg#serverStatus #serverFeatures,
+.msg#serverStatus #serverDirectories,
+.msg#serverStatus #serverSsl,
+.msg#serverStatus #serverAuthentication,
+.msg#serverStatus #firewall {
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.msg.serverStatus {
+    display: flex;
+    overflow: auto;
+    margin: 0 20px;
+    color: var(--foreground);
+}
+
+.msg.serverStatus #statusBoxHost {
+    margin: 0 auto;
+}
+
+.msg.serverStatus #statusBoxHost .grid {
+    font-size: 11pt;
+    min-width: 400px;
+    max-width: 400px;
+    padding: 0 8px 0 8px;
+    word-break: break-word;
+}
+
+.msg.serverStatus .grid .left {
+    margin-left: auto;
+    padding-left: 16px;
+    color: var(--text-dimmedForeground)
+}
+
+.msg.serverStatus .heading {
+    margin: 30px 30px 0 30px;
+    text-align: center;
+    font-size: 25pt;
+    height: 39px;
+    font-weight: 100;
+}
+
+.msg.serverStatus #mysqlLogo,
+.msg.clientConnections #mysqlLogo {
+    margin: 8px 0 8px auto;
+    width: 100px;
+    height: 100px;
+}
+
+.msg #serverRunningIcon,
+.msg #serverStoppedIcon {
+    width: 92px;
+    height: 92px;
+}
+
+.msg.serverStatus .divider {
+    background-color: var(--list-gridColor);
+    --thickness: 1px !important;
+}
+
+.msg.serverStatus .statusIndicator > h3,
+.msg.serverStatus .statusIndicator > h1 {
+    padding-left: 0;
+    padding-top: 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.msg.serverStatus .statusIndicator > h3 {
+    font-size: .7rem;
+    font-weight: 300;
+}
+
+.msg.serverStatus .statusIndicator > h1 {
+    font-size: 1.7rem;
+    margin-top: 1px;
+}
+
+/* Definitions for the performance dashboard. */
+
+.msg .performanceDashboard {
+    flex: 1;
+}
+
+.msg .performanceDashboard #graphColorsDropdown,
+.msg .performanceDashboard #timeRangeDropdown {
+    margin: 0 8px;
+    width: 150px;
+}
+
+.msg #dashboardGrid {
+    flex: 1;
+    grid-auto-flow: row;
+    margin: 32px;
+
+    grid-template-rows: 120px auto auto auto;
+}
+
+.msg #dashboardGrid .separated {
+    border-right: 1px dashed var(--list-gridColor);
+}
+
+.msg #dashboardGrid .title .label:nth-of-type(1) {
+    font-size: 1.5em;
+    margin: 8px 0;
+}
+
+.msg #dashboardGrid .title .label:nth-of-type(2) {
+    font-size: 0.7em;
+    width: 80%;
+    text-align: center;
+}
+
+.msg #dashboardGrid .graphHost #yAxis .tick line:first-child,
+.msg #dashboardGrid .graphHost #xAxis .tick {
+    display: none;
+}
+
+.msg #dashboardGrid .gridCell .subTitle {
+    text-align: center;
+}
+
+.msg #dashboardGrid .gridCell .pieTitle {
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.msg #dashboardGrid .sectionIcon {
+    width: 32px;
+    height: 32px;
+}
+
+.msg #dashboardGrid #selectGrid .gridCell {
+    overflow: hidden;
+}
+
+.msg #dashboardGrid #selectGrid {
+    flex: 0 0 auto;
+    margin: 0;
+}
+
+.msg #dashboardGrid .placeholder {
+    flex: 0 0 20px;
+}
+
+.msg #dashboardGrid .gridCell .nameValuePair {
+    flex: 0 0 20px;
+
+    font-size: 0.9em;
+    overflow: hidden;
+    padding-right: 20px;
+
+    font-family: "SourceCodePro+Powerline+Awesome+MySQL Regular";
+}
+
+.msg #dashboardGrid .nameValuePair .nameLabel {
+    color: var(--text-dimmedForeground);
+    margin-right: 8px;
+}
+
+.msg #dashboardGrid .nameValuePair .valueLabel {
+    margin: 0 0 0 auto;
+
+}
+
+.msg #dashboardGrid .nameValuePair .arrow {
+    white-space: nowrap;
+    margin: 0 20px 0 auto;
+}
+
+.msg #dashboardGrid .nameValuePair .marker {
+    white-space: nowrap;
+    margin: 0 8px 0 auto;
+}
+
+.msg #selectGrid .gridCell .nameValuePair {
+    flex: 0 0 20px;
+
+    padding: 0;
+}
+
+.msg #dashboardGrid .tooltip {
+    background-color: var(--tooltip-background);
+    color: var(--tooltip-foreground);
+    border: 1px solid var(--tooltip-border);
+}
+
+/* Definitions for client connections. */
+
+.msg.clientConnections #contentHost {
+    flex: 1;
+}
+
+.msg.serverStatus h1,
+.msg.clientConnections h1 {
+    font-size: 1.4rem;
+    margin-bottom: 0;
+}
+
+.msg.serverStatus h2,
+.msg.clientConnections h2 {
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+.msg.clientConnections {
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.msg.clientConnections #clientConnectionDetails {
+    word-break: break-word;
+}
+
+.msg.clientConnections #connectionList {
+    flex: 1;
+}
+
+.msg.clientConnections #connectionDetails {
+    flex: 0 0 33%;
+}
+
+.msg.clientConnections .grid {
+    width: 95%;
+    font-size: 11pt;
+}
+
+.msg.clientConnections .grid .left {
+    justify-content: flex-end;
+    color: var(--text-dimmedForeground)
+}
+
+.msg.clientConnections .grid .right {
+    justify-content: flex-start;
+}
+
+.msg.msg.clientConnections .toolbar {
+    width: 100%;
+}
+
+.msg.msg.clientConnections .toolbar #refreshSelector {
+    min-width: 120px;
+}
+
+.msg.msg.clientConnections .toolbar > * {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.msg.clientConnections #connectionProps {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.msg.clientConnections #connectionProps label {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.msg.clientConnections #detailsTabView {
+    margin-left: 20px;
+    min-width: 100px;
+}
+
+.msg.clientConnections #detailsTabView #clientConnectionDetails,
+.msg.clientConnections #detailsTabView #clientConnectionAttributes {
+    padding: 20px;
+}
+
+
+.msg.clientConnections #locksInfoContainer label {
+    padding: 5px;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.msg.clientConnections #locksInfoContainer label#grantedInfo,
+.msg.clientConnections #locksInfoContainer label#pendingInfo {
+    padding: 5px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.msg#editorToolbarActionMenu .popup {
+    min-width: auto;
+}

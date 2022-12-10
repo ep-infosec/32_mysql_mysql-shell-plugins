@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Divider render testing Test Divider output 1`] = `
+<Divider
+  thickness={4}
+  vertical={true}
+>
+  <div
+    className="msg divider vertical"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "--thickness": "4px",
+      }
+    }
+  />
+</Divider>
+`;
